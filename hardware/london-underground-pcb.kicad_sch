@@ -184,7 +184,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -202,7 +202,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -457,7 +457,7 @@
 					)
 				)
 			)
-			(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+			(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 				(at 0 -9.906 0)
 				(effects
 					(font
@@ -536,7 +536,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -7.62 -1.27 0)
 					(length 2.54)
 					(name "GND"
@@ -680,8 +680,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U1"
+				(at 13.97 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -689,14 +689,14 @@
 				)
 			)
 			(property "Value" "XIAO-RP2040-DIP"
-				(at 5.334 -1.778 0)
+				(at 13.97 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Module:MOUDLE14P-XIAO-DIP-SMD"
+			(property "Footprint" "Seeed Studio XIAO:XIAO-RP2040-SMD"
 				(at 14.478 -32.258 0)
 				(effects
 					(font
@@ -1258,7 +1258,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 31.75 -27.94 180)
 					(length 2.54)
 					(name "GPIO1/RX"
@@ -1648,6 +1648,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -7307,6 +7408,12 @@
 		(uuid "d0a110cb-ed2e-4671-9d0d-90d34630ffe6")
 	)
 	(junction
+		(at 125.73 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0ef0578-f7d2-43e3-89ef-d88ef3a31717")
+	)
+	(junction
 		(at 203.2 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7437,6 +7544,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4bb5bd3-02bb-428b-b3dc-d55b00103b4b")
+	)
+	(junction
+		(at 96.52 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d531dbcf-371e-4e6d-aa8e-d6c3a8756fc1")
 	)
 	(junction
 		(at 228.6 1313.18)
@@ -16863,6 +16976,16 @@
 			(type default)
 		)
 		(uuid "32a2748e-96f6-47d9-8d1b-9c251e8a6a0b")
+	)
+	(wire
+		(pts
+			(xy 125.73 21.59) (xy 139.7 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a3b1fc-35ea-45d7-bf8b-5d5c612b55dd")
 	)
 	(wire
 		(pts
@@ -29866,7 +29989,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 21.59) (xy 139.7 21.59)
+			(xy 124.46 21.59) (xy 125.73 21.59)
 		)
 		(stroke
 			(width 0)
@@ -53176,7 +53299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 245.11 558.8 0)
 			(effects
 				(font
@@ -53259,7 +53382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 255.27 1520.19 0)
 			(effects
 				(font
@@ -53342,7 +53465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 226.06 735.33 0)
 			(effects
 				(font
@@ -53425,7 +53548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 146.05 1028.7 0)
 			(effects
 				(font
@@ -53705,7 +53828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 130.81 762 0)
 			(effects
 				(font
@@ -53788,7 +53911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 391.16 0)
 			(effects
 				(font
@@ -53871,7 +53994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 279.4 877.57 0)
 			(effects
 				(font
@@ -53954,7 +54077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 302.26 660.4 0)
 			(effects
 				(font
@@ -54037,7 +54160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 314.96 0)
 			(effects
 				(font
@@ -54120,7 +54243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 283.21 709.93 0)
 			(effects
 				(font
@@ -54337,7 +54460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 177.8 1352.55 0)
 			(effects
 				(font
@@ -54420,7 +54543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 234.95 1224.28 0)
 			(effects
 				(font
@@ -54503,7 +54626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 440.69 0)
 			(effects
 				(font
@@ -54586,7 +54709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 119.38 1149.35 0)
 			(effects
 				(font
@@ -54669,7 +54792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 492.76 0)
 			(effects
 				(font
@@ -54752,7 +54875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 222.25 852.17 0)
 			(effects
 				(font
@@ -54835,7 +54958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 160.02 1520.19 0)
 			(effects
 				(font
@@ -55080,7 +55203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 466.09 0)
 			(effects
 				(font
@@ -55163,7 +55286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 120.65 1445.26 0)
 			(effects
 				(font
@@ -55246,7 +55369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 416.56 0)
 			(effects
 				(font
@@ -55424,7 +55547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 120.65 1377.95 0)
 			(effects
 				(font
@@ -55507,7 +55630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 339.09 0)
 			(effects
 				(font
@@ -55656,7 +55779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 163.83 852.17 0)
 			(effects
 				(font
@@ -55901,7 +56024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 298.45 1080.77 0)
 			(effects
 				(font
@@ -56079,7 +56202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 241.3 1003.3 0)
 			(effects
 				(font
@@ -56295,7 +56418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 273.05 1250.95 0)
 			(effects
 				(font
@@ -56378,7 +56501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 120.65 0)
 			(effects
 				(font
@@ -56528,7 +56651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 226.06 660.4 0)
 			(effects
 				(font
@@ -56678,7 +56801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 391.16 0)
 			(effects
 				(font
@@ -56761,7 +56884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 260.35 979.17 0)
 			(effects
 				(font
@@ -56911,7 +57034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 203.2 901.7 0)
 			(effects
 				(font
@@ -56994,7 +57117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 179.07 1596.39 0)
 			(effects
 				(font
@@ -57077,7 +57200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 254 1250.95 0)
 			(effects
 				(font
@@ -57160,7 +57283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 518.16 0)
 			(effects
 				(font
@@ -57243,7 +57366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 127 1003.3 0)
 			(effects
 				(font
@@ -57326,7 +57449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 302.26 709.93 0)
 			(effects
 				(font
@@ -57476,7 +57599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 391.16 0)
 			(effects
 				(font
@@ -57626,7 +57749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 492.76 0)
 			(effects
 				(font
@@ -57776,7 +57899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 158.75 1377.95 0)
 			(effects
 				(font
@@ -57859,7 +57982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 93.98 0)
 			(effects
 				(font
@@ -57942,7 +58065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 168.91 735.33 0)
 			(effects
 				(font
@@ -58025,7 +58148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 170.18 0)
 			(effects
 				(font
@@ -58108,7 +58231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 120.65 0)
 			(effects
 				(font
@@ -58191,7 +58314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 132.08 19.05 0)
 			(effects
 				(font
@@ -58274,7 +58397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 215.9 1352.55 0)
 			(effects
 				(font
@@ -58357,7 +58480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 222.25 0)
 			(effects
 				(font
@@ -58440,7 +58563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 440.69 0)
 			(effects
 				(font
@@ -58523,7 +58646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 273.05 1198.88 0)
 			(effects
 				(font
@@ -58606,7 +58729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 391.16 0)
 			(effects
 				(font
@@ -58689,7 +58812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 198.12 1470.66 0)
 			(effects
 				(font
@@ -58772,7 +58895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 215.9 1174.75 0)
 			(effects
 				(font
@@ -58855,7 +58978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 247.65 0)
 			(effects
 				(font
@@ -58938,7 +59061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 120.65 1198.88 0)
 			(effects
 				(font
@@ -59021,7 +59144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 121.92 1520.19 0)
 			(effects
 				(font
@@ -59171,7 +59294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 245.11 660.4 0)
 			(effects
 				(font
@@ -59444,7 +59567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 466.09 0)
 			(effects
 				(font
@@ -59527,7 +59650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 215.9 1198.88 0)
 			(effects
 				(font
@@ -59676,7 +59799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 196.85 1224.28 0)
 			(effects
 				(font
@@ -59826,7 +59949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 364.49 0)
 			(effects
 				(font
@@ -59909,7 +60032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 196.85 1149.35 0)
 			(effects
 				(font
@@ -59992,7 +60115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 207.01 558.8 0)
 			(effects
 				(font
@@ -60170,7 +60293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 264.16 584.2 0)
 			(effects
 				(font
@@ -60320,7 +60443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 168.91 709.93 0)
 			(effects
 				(font
@@ -60403,7 +60526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 314.96 0)
 			(effects
 				(font
@@ -60551,7 +60674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 255.27 1494.79 0)
 			(effects
 				(font
@@ -60729,7 +60852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 518.16 0)
 			(effects
 				(font
@@ -60812,7 +60935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 273.05 1224.28 0)
 			(effects
 				(font
@@ -60962,7 +61085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 19.05 0)
 			(effects
 				(font
@@ -61045,7 +61168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 298.45 1028.7 0)
 			(effects
 				(font
@@ -61128,7 +61251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 283.21 558.8 0)
 			(effects
 				(font
@@ -61211,7 +61334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 44.45 0)
 			(effects
 				(font
@@ -61294,7 +61417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 391.16 0)
 			(effects
 				(font
@@ -61377,7 +61500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 245.11 584.2 0)
 			(effects
 				(font
@@ -61460,7 +61583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 195.58 0)
 			(effects
 				(font
@@ -61705,7 +61828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 203.2 1055.37 0)
 			(effects
 				(font
@@ -61788,7 +61911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 254 1300.48 0)
 			(effects
 				(font
@@ -61871,7 +61994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 93.98 0)
 			(effects
 				(font
@@ -61954,7 +62077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 260.35 852.17 0)
 			(effects
 				(font
@@ -62037,7 +62160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 184.15 901.7 0)
 			(effects
 				(font
@@ -62120,7 +62243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 222.25 979.17 0)
 			(effects
 				(font
@@ -62203,7 +62326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 203.2 927.1 0)
 			(effects
 				(font
@@ -62286,7 +62409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 215.9 1250.95 0)
 			(effects
 				(font
@@ -62369,7 +62492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 165.1 1055.37 0)
 			(effects
 				(font
@@ -62519,7 +62642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 44.45 0)
 			(effects
 				(font
@@ -62602,7 +62725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 274.32 1445.26 0)
 			(effects
 				(font
@@ -62685,7 +62808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 222.25 927.1 0)
 			(effects
 				(font
@@ -62768,7 +62891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 298.45 927.1 0)
 			(effects
 				(font
@@ -62851,7 +62974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 68.58 0)
 			(effects
 				(font
@@ -62934,7 +63057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 170.18 0)
 			(effects
 				(font
@@ -63017,7 +63140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 314.96 0)
 			(effects
 				(font
@@ -63100,7 +63223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 260.35 1028.7 0)
 			(effects
 				(font
@@ -63183,7 +63306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 247.65 0)
 			(effects
 				(font
@@ -63266,7 +63389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 236.22 1494.79 0)
 			(effects
 				(font
@@ -63444,7 +63567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 215.9 1325.88 0)
 			(effects
 				(font
@@ -63527,7 +63650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 187.96 709.93 0)
 			(effects
 				(font
@@ -63610,7 +63733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 215.9 1377.95 0)
 			(effects
 				(font
@@ -63693,7 +63816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 518.16 0)
 			(effects
 				(font
@@ -63776,7 +63899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 234.95 1276.35 0)
 			(effects
 				(font
@@ -63859,7 +63982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 314.96 0)
 			(effects
 				(font
@@ -64009,7 +64132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 170.18 0)
 			(effects
 				(font
@@ -64159,7 +64282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 184.15 927.1 0)
 			(effects
 				(font
@@ -64242,7 +64365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 44.45 0)
 			(effects
 				(font
@@ -64325,7 +64448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 247.65 0)
 			(effects
 				(font
@@ -64408,7 +64531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 416.56 0)
 			(effects
 				(font
@@ -64491,7 +64614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 130.81 735.33 0)
 			(effects
 				(font
@@ -64574,7 +64697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 226.06 709.93 0)
 			(effects
 				(font
@@ -64657,7 +64780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 129.54 558.8 0)
 			(effects
 				(font
@@ -64740,7 +64863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 19.05 0)
 			(effects
 				(font
@@ -64823,7 +64946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 241.3 852.17 0)
 			(effects
 				(font
@@ -64906,7 +65029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 279.4 1028.7 0)
 			(effects
 				(font
@@ -64989,7 +65112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 339.09 0)
 			(effects
 				(font
@@ -65139,7 +65262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 196.85 1250.95 0)
 			(effects
 				(font
@@ -65222,7 +65345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 120.65 0)
 			(effects
 				(font
@@ -65305,7 +65428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 260.35 1055.37 0)
 			(effects
 				(font
@@ -65388,7 +65511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 247.65 0)
 			(effects
 				(font
@@ -65471,7 +65594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 146.05 0)
 			(effects
 				(font
@@ -65554,7 +65677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 302.26 633.73 0)
 			(effects
 				(font
@@ -65637,7 +65760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 292.1 1276.35 0)
 			(effects
 				(font
@@ -65720,7 +65843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 339.09 0)
 			(effects
 				(font
@@ -65803,7 +65926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 416.56 0)
 			(effects
 				(font
@@ -65886,7 +66009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 149.86 709.93 0)
 			(effects
 				(font
@@ -65969,7 +66092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 283.21 633.73 0)
 			(effects
 				(font
@@ -66052,7 +66175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 254 1174.75 0)
 			(effects
 				(font
@@ -66230,7 +66353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 260.35 1080.77 0)
 			(effects
 				(font
@@ -66313,7 +66436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 222.25 0)
 			(effects
 				(font
@@ -66396,7 +66519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 217.17 1572.26 0)
 			(effects
 				(font
@@ -66574,7 +66697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 146.05 901.7 0)
 			(effects
 				(font
@@ -66724,7 +66847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 187.96 608.33 0)
 			(effects
 				(font
@@ -66807,7 +66930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 170.18 0)
 			(effects
 				(font
@@ -66890,7 +67013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 139.7 1198.88 0)
 			(effects
 				(font
@@ -66973,7 +67096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 44.45 0)
 			(effects
 				(font
@@ -67056,7 +67179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -67368,7 +67491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 241.3 1028.7 0)
 			(effects
 				(font
@@ -67546,7 +67669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 68.58 0)
 			(effects
 				(font
@@ -67629,7 +67752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 254 1325.88 0)
 			(effects
 				(font
@@ -67807,7 +67930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 217.17 1546.86 0)
 			(effects
 				(font
@@ -67890,7 +68013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 120.65 0)
 			(effects
 				(font
@@ -67973,7 +68096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 254 1224.28 0)
 			(effects
 				(font
@@ -68056,7 +68179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 234.95 1325.88 0)
 			(effects
 				(font
@@ -68139,7 +68262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 177.8 1300.48 0)
 			(effects
 				(font
@@ -68222,7 +68345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 234.95 1377.95 0)
 			(effects
 				(font
@@ -68467,7 +68590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 177.8 1149.35 0)
 			(effects
 				(font
@@ -68550,7 +68673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 440.69 0)
 			(effects
 				(font
@@ -68633,7 +68756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 44.45 0)
 			(effects
 				(font
@@ -68716,7 +68839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 226.06 787.4 0)
 			(effects
 				(font
@@ -68866,7 +68989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 198.12 1494.79 0)
 			(effects
 				(font
@@ -69016,7 +69139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 273.05 1276.35 0)
 			(effects
 				(font
@@ -69099,7 +69222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 215.9 1149.35 0)
 			(effects
 				(font
@@ -69249,7 +69372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 298.45 1055.37 0)
 			(effects
 				(font
@@ -69332,7 +69455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 289.56 0)
 			(effects
 				(font
@@ -69415,7 +69538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 217.17 1494.79 0)
 			(effects
 				(font
@@ -69593,7 +69716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 140.97 1572.26 0)
 			(effects
 				(font
@@ -69676,7 +69799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 289.56 0)
 			(effects
 				(font
@@ -69921,7 +70044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 236.22 1546.86 0)
 			(effects
 				(font
@@ -70071,7 +70194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 93.98 0)
 			(effects
 				(font
@@ -70154,7 +70277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 416.56 0)
 			(effects
 				(font
@@ -70237,7 +70360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 207.01 735.33 0)
 			(effects
 				(font
@@ -70320,7 +70443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 391.16 0)
 			(effects
 				(font
@@ -70470,7 +70593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 289.56 0)
 			(effects
 				(font
@@ -70553,7 +70676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 236.22 1445.26 0)
 			(effects
 				(font
@@ -70731,7 +70854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 146.05 0)
 			(effects
 				(font
@@ -70814,7 +70937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 260.35 1003.3 0)
 			(effects
 				(font
@@ -70963,7 +71086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 314.96 0)
 			(effects
 				(font
@@ -71275,7 +71398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 130.81 685.8 0)
 			(effects
 				(font
@@ -71358,7 +71481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 195.58 0)
 			(effects
 				(font
@@ -71441,7 +71564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 120.65 1300.48 0)
 			(effects
 				(font
@@ -71524,7 +71647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 184.15 1003.3 0)
 			(effects
 				(font
@@ -71674,7 +71797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 466.09 0)
 			(effects
 				(font
@@ -71824,7 +71947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 121.92 1572.26 0)
 			(effects
 				(font
@@ -71907,7 +72030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 140.97 1494.79 0)
 			(effects
 				(font
@@ -72152,7 +72275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 130.81 660.4 0)
 			(effects
 				(font
@@ -72302,7 +72425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 254 1198.88 0)
 			(effects
 				(font
@@ -72385,7 +72508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 292.1 1325.88 0)
 			(effects
 				(font
@@ -72534,7 +72657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 168.91 762 0)
 			(effects
 				(font
@@ -72617,7 +72740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 149.86 633.73 0)
 			(effects
 				(font
@@ -72700,7 +72823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 247.65 0)
 			(effects
 				(font
@@ -72783,7 +72906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 146.05 877.57 0)
 			(effects
 				(font
@@ -72866,7 +72989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "C17888:R1206"
 			(at 317.5 535.94 0)
 			(effects
 				(font
@@ -72943,7 +73066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 254 1149.35 0)
 			(effects
 				(font
@@ -73026,7 +73149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 492.76 0)
 			(effects
 				(font
@@ -73109,7 +73232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 302.26 584.2 0)
 			(effects
 				(font
@@ -73192,7 +73315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 195.58 0)
 			(effects
 				(font
@@ -73275,7 +73398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 187.96 584.2 0)
 			(effects
 				(font
@@ -73535,7 +73658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 247.65 0)
 			(effects
 				(font
@@ -73618,7 +73741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 93.98 0)
 			(effects
 				(font
@@ -73768,7 +73891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 160.02 1470.66 0)
 			(effects
 				(font
@@ -73917,7 +74040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 19.05 0)
 			(effects
 				(font
@@ -74000,7 +74123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 283.21 787.4 0)
 			(effects
 				(font
@@ -74178,7 +74301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 177.8 1174.75 0)
 			(effects
 				(font
@@ -74261,7 +74384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 416.56 0)
 			(effects
 				(font
@@ -74344,7 +74467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 158.75 1250.95 0)
 			(effects
 				(font
@@ -74494,7 +74617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 120.65 1325.88 0)
 			(effects
 				(font
@@ -74577,7 +74700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 184.15 1055.37 0)
 			(effects
 				(font
@@ -74660,7 +74783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 140.97 1520.19 0)
 			(effects
 				(font
@@ -74743,7 +74866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 416.56 0)
 			(effects
 				(font
@@ -74826,7 +74949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 254 1377.95 0)
 			(effects
 				(font
@@ -75013,7 +75136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 139.7 1224.28 0)
 			(effects
 				(font
@@ -75096,7 +75219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 314.96 0)
 			(effects
 				(font
@@ -75179,7 +75302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 19.05 0)
 			(effects
 				(font
@@ -75262,7 +75385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 298.45 901.7 0)
 			(effects
 				(font
@@ -75440,7 +75563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 364.49 0)
 			(effects
 				(font
@@ -75523,7 +75646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 293.37 1494.79 0)
 			(effects
 				(font
@@ -75606,7 +75729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 146.05 927.1 0)
 			(effects
 				(font
@@ -75689,7 +75812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 492.76 0)
 			(effects
 				(font
@@ -75772,7 +75895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 339.09 0)
 			(effects
 				(font
@@ -75855,7 +75978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 195.58 0)
 			(effects
 				(font
@@ -75938,7 +76061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 165.1 953.77 0)
 			(effects
 				(font
@@ -76021,7 +76144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 273.05 1149.35 0)
 			(effects
 				(font
@@ -76199,7 +76322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 170.18 0)
 			(effects
 				(font
@@ -76282,7 +76405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 44.45 0)
 			(effects
 				(font
@@ -76365,7 +76488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 179.07 1494.79 0)
 			(effects
 				(font
@@ -76515,7 +76638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 234.95 1198.88 0)
 			(effects
 				(font
@@ -76759,7 +76882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 121.92 1546.86 0)
 			(effects
 				(font
@@ -76909,7 +77032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 440.69 0)
 			(effects
 				(font
@@ -76992,7 +77115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 184.15 877.57 0)
 			(effects
 				(font
@@ -77075,7 +77198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 168.91 685.8 0)
 			(effects
 				(font
@@ -77320,7 +77443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 207.01 660.4 0)
 			(effects
 				(font
@@ -77403,7 +77526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 127 927.1 0)
 			(effects
 				(font
@@ -77620,7 +77743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 130.81 633.73 0)
 			(effects
 				(font
@@ -77770,7 +77893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 196.85 1377.95 0)
 			(effects
 				(font
@@ -77853,7 +77976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 339.09 0)
 			(effects
 				(font
@@ -77936,7 +78059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 226.06 608.33 0)
 			(effects
 				(font
@@ -78019,7 +78142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 247.65 0)
 			(effects
 				(font
@@ -78169,7 +78292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 196.85 1300.48 0)
 			(effects
 				(font
@@ -78252,7 +78375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 127 1055.37 0)
 			(effects
 				(font
@@ -78335,7 +78458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 234.95 1300.48 0)
 			(effects
 				(font
@@ -78418,7 +78541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 283.21 735.33 0)
 			(effects
 				(font
@@ -78501,7 +78624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 283.21 762 0)
 			(effects
 				(font
@@ -78584,7 +78707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 245.11 608.33 0)
 			(effects
 				(font
@@ -78667,7 +78790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 165.1 1080.77 0)
 			(effects
 				(font
@@ -78884,7 +79007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 120.65 0)
 			(effects
 				(font
@@ -79101,7 +79224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 302.26 735.33 0)
 			(effects
 				(font
@@ -79184,7 +79307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 93.98 0)
 			(effects
 				(font
@@ -79267,7 +79390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 187.96 685.8 0)
 			(effects
 				(font
@@ -79350,7 +79473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 241.3 927.1 0)
 			(effects
 				(font
@@ -79433,7 +79556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 292.1 1352.55 0)
 			(effects
 				(font
@@ -79678,7 +79801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 179.07 1546.86 0)
 			(effects
 				(font
@@ -79761,7 +79884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 339.09 0)
 			(effects
 				(font
@@ -79844,7 +79967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 273.05 1352.55 0)
 			(effects
 				(font
@@ -79927,7 +80050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 203.2 953.77 0)
 			(effects
 				(font
@@ -80010,7 +80133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 440.69 0)
 			(effects
 				(font
@@ -80093,7 +80216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 292.1 1198.88 0)
 			(effects
 				(font
@@ -80176,7 +80299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 160.02 1494.79 0)
 			(effects
 				(font
@@ -80393,7 +80516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 165.1 1028.7 0)
 			(effects
 				(font
@@ -80476,7 +80599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 177.8 1224.28 0)
 			(effects
 				(font
@@ -80559,7 +80682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 283.21 660.4 0)
 			(effects
 				(font
@@ -80642,7 +80765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 289.56 0)
 			(effects
 				(font
@@ -80820,7 +80943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 139.7 1325.88 0)
 			(effects
 				(font
@@ -80903,7 +81026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 149.86 787.4 0)
 			(effects
 				(font
@@ -80986,7 +81109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 215.9 1300.48 0)
 			(effects
 				(font
@@ -81069,7 +81192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 241.3 901.7 0)
 			(effects
 				(font
@@ -81152,7 +81275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 149.86 762 0)
 			(effects
 				(font
@@ -81235,7 +81358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 279.4 1080.77 0)
 			(effects
 				(font
@@ -81318,7 +81441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 184.15 1028.7 0)
 			(effects
 				(font
@@ -81401,7 +81524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 466.09 0)
 			(effects
 				(font
@@ -81484,7 +81607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 207.01 762 0)
 			(effects
 				(font
@@ -81729,7 +81852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 140.97 1596.39 0)
 			(effects
 				(font
@@ -81945,7 +82068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 292.1 1224.28 0)
 			(effects
 				(font
@@ -82028,7 +82151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 236.22 1596.39 0)
 			(effects
 				(font
@@ -82111,7 +82234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 254 1276.35 0)
 			(effects
 				(font
@@ -82194,7 +82317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 279.4 979.17 0)
 			(effects
 				(font
@@ -82277,7 +82400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 68.58 0)
 			(effects
 				(font
@@ -82360,7 +82483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 466.09 0)
 			(effects
 				(font
@@ -82510,7 +82633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 264.16 660.4 0)
 			(effects
 				(font
@@ -82924,7 +83047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -83007,7 +83130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 68.58 0)
 			(effects
 				(font
@@ -83090,7 +83213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 440.69 0)
 			(effects
 				(font
@@ -83240,7 +83363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 289.56 0)
 			(effects
 				(font
@@ -83323,7 +83446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 298.45 852.17 0)
 			(effects
 				(font
@@ -83406,7 +83529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 165.1 877.57 0)
 			(effects
 				(font
@@ -83489,7 +83612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 364.49 0)
 			(effects
 				(font
@@ -83572,7 +83695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 222.25 1003.3 0)
 			(effects
 				(font
@@ -83655,7 +83778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 391.16 0)
 			(effects
 				(font
@@ -83738,7 +83861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 158.75 1325.88 0)
 			(effects
 				(font
@@ -83821,7 +83944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 127 979.17 0)
 			(effects
 				(font
@@ -83971,7 +84094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 255.27 1546.86 0)
 			(effects
 				(font
@@ -84121,7 +84244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 226.06 633.73 0)
 			(effects
 				(font
@@ -84204,7 +84327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 158.75 1198.88 0)
 			(effects
 				(font
@@ -84287,7 +84410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 226.06 558.8 0)
 			(effects
 				(font
@@ -84370,7 +84493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 187.96 787.4 0)
 			(effects
 				(font
@@ -84453,7 +84576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 274.32 1494.79 0)
 			(effects
 				(font
@@ -84536,7 +84659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 279.4 901.7 0)
 			(effects
 				(font
@@ -84619,7 +84742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 187.96 558.8 0)
 			(effects
 				(font
@@ -84702,7 +84825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 492.76 0)
 			(effects
 				(font
@@ -84880,7 +85003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 170.18 289.56 0)
 			(effects
 				(font
@@ -84963,7 +85086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 492.76 0)
 			(effects
 				(font
@@ -85046,7 +85169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 289.56 0)
 			(effects
 				(font
@@ -85196,7 +85319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 241.3 953.77 0)
 			(effects
 				(font
@@ -85279,7 +85402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 416.56 0)
 			(effects
 				(font
@@ -85429,7 +85552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 364.49 0)
 			(effects
 				(font
@@ -85512,7 +85635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 302.26 608.33 0)
 			(effects
 				(font
@@ -85661,7 +85784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 121.92 1596.39 0)
 			(effects
 				(font
@@ -85744,7 +85867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 93.98 0)
 			(effects
 				(font
@@ -85961,7 +86084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 146.05 1080.77 0)
 			(effects
 				(font
@@ -86044,7 +86167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 518.16 0)
 			(effects
 				(font
@@ -86127,7 +86250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 283.21 584.2 0)
 			(effects
 				(font
@@ -86210,7 +86333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 203.2 1028.7 0)
 			(effects
 				(font
@@ -86360,7 +86483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 440.69 0)
 			(effects
 				(font
@@ -86510,7 +86633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 187.96 633.73 0)
 			(effects
 				(font
@@ -86593,7 +86716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 466.09 0)
 			(effects
 				(font
@@ -86676,7 +86799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 139.7 1377.95 0)
 			(effects
 				(font
@@ -86908,7 +87031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 264.16 762 0)
 			(effects
 				(font
@@ -86991,7 +87114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 127 877.57 0)
 			(effects
 				(font
@@ -87236,7 +87359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 130.81 787.4 0)
 			(effects
 				(font
@@ -87615,7 +87738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 168.91 633.73 0)
 			(effects
 				(font
@@ -87698,7 +87821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 339.09 0)
 			(effects
 				(font
@@ -87971,7 +88094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 339.09 0)
 			(effects
 				(font
@@ -88054,7 +88177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 241.3 1080.77 0)
 			(effects
 				(font
@@ -88137,7 +88260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 245.11 685.8 0)
 			(effects
 				(font
@@ -88354,7 +88477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 207.01 787.4 0)
 			(effects
 				(font
@@ -88532,7 +88655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 274.32 1572.26 0)
 			(effects
 				(font
@@ -88615,7 +88738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 492.76 0)
 			(effects
 				(font
@@ -88698,7 +88821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 130.81 709.93 0)
 			(effects
 				(font
@@ -88781,7 +88904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 492.76 0)
 			(effects
 				(font
@@ -88931,7 +89054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 241.3 877.57 0)
 			(effects
 				(font
@@ -89014,7 +89137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 160.02 1596.39 0)
 			(effects
 				(font
@@ -89097,7 +89220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 518.16 0)
 			(effects
 				(font
@@ -89180,7 +89303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 466.09 0)
 			(effects
 				(font
@@ -89263,7 +89386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 132.08 289.56 0)
 			(effects
 				(font
@@ -89346,7 +89469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 19.05 0)
 			(effects
 				(font
@@ -89429,7 +89552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 170.18 0)
 			(effects
 				(font
@@ -89512,7 +89635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 302.26 685.8 0)
 			(effects
 				(font
@@ -89729,7 +89852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 168.91 660.4 0)
 			(effects
 				(font
@@ -89812,7 +89935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 273.05 1325.88 0)
 			(effects
 				(font
@@ -89895,7 +90018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 364.49 0)
 			(effects
 				(font
@@ -89978,7 +90101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 492.76 0)
 			(effects
 				(font
@@ -90124,7 +90247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 146.05 953.77 0)
 			(effects
 				(font
@@ -90436,7 +90559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 149.86 660.4 0)
 			(effects
 				(font
@@ -90519,7 +90642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 179.07 1470.66 0)
 			(effects
 				(font
@@ -90602,7 +90725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 292.1 1250.95 0)
 			(effects
 				(font
@@ -90685,7 +90808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 339.09 0)
 			(effects
 				(font
@@ -90768,7 +90891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 298.45 953.77 0)
 			(effects
 				(font
@@ -90917,7 +91040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 120.65 1276.35 0)
 			(effects
 				(font
@@ -91000,7 +91123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 293.37 1520.19 0)
 			(effects
 				(font
@@ -91150,7 +91273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "C17888:R1206"
 			(at 311.15 1098.55 0)
 			(effects
 				(font
@@ -91227,7 +91350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 198.12 1596.39 0)
 			(effects
 				(font
@@ -91310,7 +91433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 149.86 735.33 0)
 			(effects
 				(font
@@ -91393,7 +91516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 222.25 0)
 			(effects
 				(font
@@ -91476,7 +91599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 247.65 0)
 			(effects
 				(font
@@ -91559,7 +91682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 93.98 0)
 			(effects
 				(font
@@ -91642,7 +91765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 207.01 608.33 0)
 			(effects
 				(font
@@ -91725,7 +91848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 314.96 0)
 			(effects
 				(font
@@ -91903,7 +92026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 140.97 1470.66 0)
 			(effects
 				(font
@@ -91986,7 +92109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 289.56 0)
 			(effects
 				(font
@@ -92069,7 +92192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 168.91 608.33 0)
 			(effects
 				(font
@@ -92152,7 +92275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 241.3 979.17 0)
 			(effects
 				(font
@@ -92235,7 +92358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 264.16 558.8 0)
 			(effects
 				(font
@@ -92318,7 +92441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 222.25 0)
 			(effects
 				(font
@@ -92401,7 +92524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 236.22 1470.66 0)
 			(effects
 				(font
@@ -92484,7 +92607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 260.35 901.7 0)
 			(effects
 				(font
@@ -92567,7 +92690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -92650,7 +92773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 440.69 0)
 			(effects
 				(font
@@ -92800,7 +92923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 293.37 1546.86 0)
 			(effects
 				(font
@@ -92883,7 +93006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 298.45 979.17 0)
 			(effects
 				(font
@@ -92966,7 +93089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 146.05 852.17 0)
 			(effects
 				(font
@@ -93049,7 +93172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 391.16 0)
 			(effects
 				(font
@@ -93132,7 +93255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 215.9 1224.28 0)
 			(effects
 				(font
@@ -93215,7 +93338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 292.1 1377.95 0)
 			(effects
 				(font
@@ -93298,7 +93421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 127 901.7 0)
 			(effects
 				(font
@@ -93423,6 +93546,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.73 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f791ca2-d5ab-44bc-a28a-2d3c9cc1b6e0")
+		(property "Reference" "#FLG02"
+			(at 125.73 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.73 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 125.73 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4b29c0c-e8f1-4899-9b42-d268ad6efbf0")
+		)
+		(instances
+			(project ""
+				(path "/9d6c04fd-f3a2-4e36-88c7-d66522ee3230"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCPCB-C17888:1206W4F0000T5E")
 		(at 304.8 1388.11 0)
 		(unit 1)
@@ -93448,7 +93637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "C17888:R1206"
 			(at 304.8 1395.73 0)
 			(effects
 				(font
@@ -93525,7 +93714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 518.16 0)
 			(effects
 				(font
@@ -93608,7 +93797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 255.27 1572.26 0)
 			(effects
 				(font
@@ -93758,7 +93947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 120.65 1250.95 0)
 			(effects
 				(font
@@ -93841,7 +94030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 195.58 0)
 			(effects
 				(font
@@ -93924,7 +94113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 121.92 1494.79 0)
 			(effects
 				(font
@@ -94007,7 +94196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 518.16 0)
 			(effects
 				(font
@@ -94090,7 +94279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 68.58 0)
 			(effects
 				(font
@@ -94240,7 +94429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 146.05 0)
 			(effects
 				(font
@@ -94323,7 +94512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 203.2 979.17 0)
 			(effects
 				(font
@@ -94540,7 +94729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 19.05 0)
 			(effects
 				(font
@@ -94623,7 +94812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 146.05 0)
 			(effects
 				(font
@@ -94706,7 +94895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 254 1352.55 0)
 			(effects
 				(font
@@ -94856,7 +95045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 222.25 0)
 			(effects
 				(font
@@ -94939,7 +95128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 222.25 1028.7 0)
 			(effects
 				(font
@@ -95156,7 +95345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 292.1 1300.48 0)
 			(effects
 				(font
@@ -95239,7 +95428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 226.06 584.2 0)
 			(effects
 				(font
@@ -95454,7 +95643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 274.32 1546.86 0)
 			(effects
 				(font
@@ -95537,7 +95726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 274.32 1596.39 0)
 			(effects
 				(font
@@ -95620,7 +95809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 466.09 0)
 			(effects
 				(font
@@ -95703,7 +95892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 264.16 685.8 0)
 			(effects
 				(font
@@ -95786,7 +95975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 255.27 1596.39 0)
 			(effects
 				(font
@@ -95869,7 +96058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 187.96 735.33 0)
 			(effects
 				(font
@@ -95952,7 +96141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 120.65 0)
 			(effects
 				(font
@@ -96035,7 +96224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 120.65 1352.55 0)
 			(effects
 				(font
@@ -96118,7 +96307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 264.16 787.4 0)
 			(effects
 				(font
@@ -96264,7 +96453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 168.91 584.2 0)
 			(effects
 				(font
@@ -96347,7 +96536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 196.85 1198.88 0)
 			(effects
 				(font
@@ -96430,7 +96619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 146.05 979.17 0)
 			(effects
 				(font
@@ -96513,7 +96702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 170.18 0)
 			(effects
 				(font
@@ -96596,7 +96785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 158.75 1174.75 0)
 			(effects
 				(font
@@ -96679,7 +96868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 283.21 685.8 0)
 			(effects
 				(font
@@ -96762,7 +96951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 177.8 1325.88 0)
 			(effects
 				(font
@@ -96845,7 +97034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 140.97 1445.26 0)
 			(effects
 				(font
@@ -96928,7 +97117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 158.75 1300.48 0)
 			(effects
 				(font
@@ -97011,7 +97200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 273.05 1377.95 0)
 			(effects
 				(font
@@ -97094,7 +97283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 236.22 1572.26 0)
 			(effects
 				(font
@@ -97177,7 +97366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 203.2 852.17 0)
 			(effects
 				(font
@@ -97260,7 +97449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 93.98 0)
 			(effects
 				(font
@@ -97343,7 +97532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 195.58 0)
 			(effects
 				(font
@@ -97493,7 +97682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 198.12 1520.19 0)
 			(effects
 				(font
@@ -97738,7 +97927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 177.8 1250.95 0)
 			(effects
 				(font
@@ -97888,7 +98077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "C17888:R1206"
 			(at 120.65 34.29 0)
 			(effects
 				(font
@@ -97965,7 +98154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 302.26 558.8 0)
 			(effects
 				(font
@@ -98115,7 +98304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 245.11 787.4 0)
 			(effects
 				(font
@@ -98198,7 +98387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 217.17 1470.66 0)
 			(effects
 				(font
@@ -98281,7 +98470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 273.05 1300.48 0)
 			(effects
 				(font
@@ -98524,7 +98713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 416.56 0)
 			(effects
 				(font
@@ -98607,7 +98796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 120.65 0)
 			(effects
 				(font
@@ -98785,7 +98974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 120.65 1224.28 0)
 			(effects
 				(font
@@ -98868,7 +99057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 170.18 0)
 			(effects
 				(font
@@ -98951,7 +99140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 245.11 735.33 0)
 			(effects
 				(font
@@ -99034,7 +99223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 120.65 0)
 			(effects
 				(font
@@ -99117,7 +99306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 165.1 901.7 0)
 			(effects
 				(font
@@ -99200,7 +99389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 146.05 1055.37 0)
 			(effects
 				(font
@@ -99283,7 +99472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 203.2 877.57 0)
 			(effects
 				(font
@@ -99366,7 +99555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 184.15 852.17 0)
 			(effects
 				(font
@@ -99449,7 +99638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 179.07 1572.26 0)
 			(effects
 				(font
@@ -99599,7 +99788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 222.25 0)
 			(effects
 				(font
@@ -99682,7 +99871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 416.56 0)
 			(effects
 				(font
@@ -99765,7 +99954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 44.45 0)
 			(effects
 				(font
@@ -99943,7 +100132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 245.11 633.73 0)
 			(effects
 				(font
@@ -100026,7 +100215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 289.56 0)
 			(effects
 				(font
@@ -100109,7 +100298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 234.95 1250.95 0)
 			(effects
 				(font
@@ -100259,7 +100448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -100342,7 +100531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 149.86 584.2 0)
 			(effects
 				(font
@@ -100492,7 +100681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 198.12 1572.26 0)
 			(effects
 				(font
@@ -100575,7 +100764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 264.16 633.73 0)
 			(effects
 				(font
@@ -100658,7 +100847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 198.12 1546.86 0)
 			(effects
 				(font
@@ -100741,7 +100930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 226.06 762 0)
 			(effects
 				(font
@@ -100824,7 +101013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 260.35 927.1 0)
 			(effects
 				(font
@@ -101173,7 +101362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 139.7 1300.48 0)
 			(effects
 				(font
@@ -101256,7 +101445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 440.69 0)
 			(effects
 				(font
@@ -101339,7 +101528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 140.97 1546.86 0)
 			(effects
 				(font
@@ -101422,7 +101611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 274.32 1520.19 0)
 			(effects
 				(font
@@ -101505,7 +101694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 184.15 953.77 0)
 			(effects
 				(font
@@ -101655,7 +101844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 68.58 0)
 			(effects
 				(font
@@ -101820,7 +102009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 125.73 852.17 0)
 			(effects
 				(font
@@ -101903,7 +102092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 158.75 1224.28 0)
 			(effects
 				(font
@@ -102081,7 +102270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 179.07 1520.19 0)
 			(effects
 				(font
@@ -102259,7 +102448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 293.37 1470.66 0)
 			(effects
 				(font
@@ -102342,7 +102531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 196.85 1174.75 0)
 			(effects
 				(font
@@ -102425,7 +102614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 168.91 787.4 0)
 			(effects
 				(font
@@ -102508,7 +102697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 68.58 0)
 			(effects
 				(font
@@ -102591,7 +102780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 68.58 0)
 			(effects
 				(font
@@ -102674,7 +102863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 234.95 1174.75 0)
 			(effects
 				(font
@@ -102757,7 +102946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 207.01 709.93 0)
 			(effects
 				(font
@@ -102840,7 +103029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 158.75 1445.26 0)
 			(effects
 				(font
@@ -103056,7 +103245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 93.98 0)
 			(effects
 				(font
@@ -103288,7 +103477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 364.49 0)
 			(effects
 				(font
@@ -103438,7 +103627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 157.48 1149.35 0)
 			(effects
 				(font
@@ -103521,7 +103710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 196.85 1325.88 0)
 			(effects
 				(font
@@ -103604,7 +103793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 121.92 1470.66 0)
 			(effects
 				(font
@@ -103687,7 +103876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 120.65 0)
 			(effects
 				(font
@@ -103770,7 +103959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 167.64 558.8 0)
 			(effects
 				(font
@@ -104015,7 +104204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 184.15 1080.77 0)
 			(effects
 				(font
@@ -104165,7 +104354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 149.86 558.8 0)
 			(effects
 				(font
@@ -104313,7 +104502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 146.05 0)
 			(effects
 				(font
@@ -104463,7 +104652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 364.49 0)
 			(effects
 				(font
@@ -104546,7 +104735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 292.1 1174.75 0)
 			(effects
 				(font
@@ -104724,7 +104913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 139.7 1352.55 0)
 			(effects
 				(font
@@ -104902,7 +105091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 127 1028.7 0)
 			(effects
 				(font
@@ -104960,6 +105149,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 96.52 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccd57f21-2fc7-4c5d-9041-29d00154f7fe")
+		(property "Reference" "#FLG01"
+			(at 98.425 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 100.33 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 96.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ef4ca02-2114-471a-9ebc-4fb00c79ba4f")
+		)
+		(instances
+			(project ""
+				(path "/9d6c04fd-f3a2-4e36-88c7-d66522ee3230"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCPCB-C5349954:XL-1615RGBC-WS2812B")
 		(at 209.55 527.05 180)
 		(unit 1)
@@ -104985,7 +105241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 518.16 0)
 			(effects
 				(font
@@ -105068,7 +105324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 165.1 927.1 0)
 			(effects
 				(font
@@ -105151,7 +105407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 130.81 608.33 0)
 			(effects
 				(font
@@ -105234,7 +105490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 93.98 0)
 			(effects
 				(font
@@ -105317,7 +105573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 146.05 0)
 			(effects
 				(font
@@ -105628,7 +105884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 222.25 0)
 			(effects
 				(font
@@ -105711,7 +105967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 283.21 608.33 0)
 			(effects
 				(font
@@ -105955,7 +106211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 177.8 1198.88 0)
 			(effects
 				(font
@@ -106038,7 +106294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 260.35 953.77 0)
 			(effects
 				(font
@@ -106121,7 +106377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 146.05 0)
 			(effects
 				(font
@@ -106204,7 +106460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 264.16 709.93 0)
 			(effects
 				(font
@@ -106354,7 +106610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 177.8 1377.95 0)
 			(effects
 				(font
@@ -106437,7 +106693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 160.02 1572.26 0)
 			(effects
 				(font
@@ -106520,7 +106776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 19.05 0)
 			(effects
 				(font
@@ -106603,7 +106859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 196.85 1352.55 0)
 			(effects
 				(font
@@ -106686,7 +106942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 245.11 709.93 0)
 			(effects
 				(font
@@ -106769,7 +107025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 245.11 762 0)
 			(effects
 				(font
@@ -106947,7 +107203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 302.26 762 0)
 			(effects
 				(font
@@ -107030,7 +107286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 195.58 0)
 			(effects
 				(font
@@ -107113,7 +107369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "C17888:R1206"
 			(at 317.5 265.43 0)
 			(effects
 				(font
@@ -107190,7 +107446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 44.45 0)
 			(effects
 				(font
@@ -107273,7 +107529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 391.16 0)
 			(effects
 				(font
@@ -107356,7 +107612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 314.96 0)
 			(effects
 				(font
@@ -107439,7 +107695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 170.18 0)
 			(effects
 				(font
@@ -107522,7 +107778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 298.45 1003.3 0)
 			(effects
 				(font
@@ -107605,7 +107861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 364.49 0)
 			(effects
 				(font
@@ -107688,7 +107944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 217.17 1596.39 0)
 			(effects
 				(font
@@ -107771,7 +108027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 279.4 927.1 0)
 			(effects
 				(font
@@ -107919,7 +108175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 127 1080.77 0)
 			(effects
 				(font
@@ -108069,7 +108325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 146.05 0)
 			(effects
 				(font
@@ -108152,7 +108408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 279.4 1055.37 0)
 			(effects
 				(font
@@ -108235,7 +108491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 416.56 0)
 			(effects
 				(font
@@ -108318,7 +108574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 518.16 0)
 			(effects
 				(font
@@ -108496,7 +108752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 222.25 901.7 0)
 			(effects
 				(font
@@ -108579,7 +108835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 304.8 195.58 0)
 			(effects
 				(font
@@ -108662,7 +108918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 139.7 1149.35 0)
 			(effects
 				(font
@@ -108745,7 +109001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 158.75 1352.55 0)
 			(effects
 				(font
@@ -108828,7 +109084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 222.25 1055.37 0)
 			(effects
 				(font
@@ -108911,7 +109167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 264.16 735.33 0)
 			(effects
 				(font
@@ -109089,7 +109345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 130.81 584.2 0)
 			(effects
 				(font
@@ -109172,7 +109428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 302.26 787.4 0)
 			(effects
 				(font
@@ -109255,7 +109511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 222.25 0)
 			(effects
 				(font
@@ -109405,7 +109661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 314.96 0)
 			(effects
 				(font
@@ -109583,7 +109839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 466.09 0)
 			(effects
 				(font
@@ -109666,7 +109922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 273.05 1174.75 0)
 			(effects
 				(font
@@ -109749,7 +110005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 279.4 852.17 0)
 			(effects
 				(font
@@ -109832,7 +110088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 196.85 1276.35 0)
 			(effects
 				(font
@@ -110010,7 +110266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 139.7 1250.95 0)
 			(effects
 				(font
@@ -110093,7 +110349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 391.16 0)
 			(effects
 				(font
@@ -110176,7 +110432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 179.07 1445.26 0)
 			(effects
 				(font
@@ -110259,7 +110515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 279.4 953.77 0)
 			(effects
 				(font
@@ -110437,7 +110693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 184.15 979.17 0)
 			(effects
 				(font
@@ -110615,7 +110871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 207.01 584.2 0)
 			(effects
 				(font
@@ -110765,7 +111021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 207.01 633.73 0)
 			(effects
 				(font
@@ -110943,7 +111199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 255.27 1470.66 0)
 			(effects
 				(font
@@ -111026,7 +111282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 492.76 0)
 			(effects
 				(font
@@ -111109,7 +111365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 222.25 877.57 0)
 			(effects
 				(font
@@ -111192,7 +111448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 171.45 339.09 0)
 			(effects
 				(font
@@ -111275,7 +111531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 195.58 0)
 			(effects
 				(font
@@ -111358,7 +111614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 160.02 1546.86 0)
 			(effects
 				(font
@@ -111441,7 +111697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 19.05 0)
 			(effects
 				(font
@@ -111524,7 +111780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 279.4 1003.3 0)
 			(effects
 				(font
@@ -111607,7 +111863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 149.86 608.33 0)
 			(effects
 				(font
@@ -111690,7 +111946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 149.86 685.8 0)
 			(effects
 				(font
@@ -111773,7 +112029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 158.75 1276.35 0)
 			(effects
 				(font
@@ -111922,7 +112178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 170.18 19.05 0)
 			(effects
 				(font
@@ -112005,7 +112261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 466.09 0)
 			(effects
 				(font
@@ -112088,7 +112344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 120.65 1174.75 0)
 			(effects
 				(font
@@ -112266,7 +112522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 203.2 1003.3 0)
 			(effects
 				(font
@@ -112349,7 +112605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 264.16 608.33 0)
 			(effects
 				(font
@@ -112432,7 +112688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 187.96 762 0)
 			(effects
 				(font
@@ -112515,7 +112771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 203.2 1080.77 0)
 			(effects
 				(font
@@ -112598,7 +112854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 120.65 0)
 			(effects
 				(font
@@ -112681,7 +112937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 226.06 685.8 0)
 			(effects
 				(font
@@ -112764,7 +113020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 247.65 68.58 0)
 			(effects
 				(font
@@ -112942,7 +113198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 139.7 1276.35 0)
 			(effects
 				(font
@@ -113025,7 +113281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 274.32 1470.66 0)
 			(effects
 				(font
@@ -113108,7 +113364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 260.35 877.57 0)
 			(effects
 				(font
@@ -113392,7 +113648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 292.1 1149.35 0)
 			(effects
 				(font
@@ -113475,7 +113731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 177.8 1276.35 0)
 			(effects
 				(font
@@ -113558,7 +113814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 222.25 1080.77 0)
 			(effects
 				(font
@@ -113641,7 +113897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 255.27 1445.26 0)
 			(effects
 				(font
@@ -113858,7 +114114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 247.65 0)
 			(effects
 				(font
@@ -114008,7 +114264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 247.65 0)
 			(effects
 				(font
@@ -114091,7 +114347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 518.16 0)
 			(effects
 				(font
@@ -114174,7 +114430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 241.3 1055.37 0)
 			(effects
 				(font
@@ -114391,7 +114647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 314.96 0)
 			(effects
 				(font
@@ -114474,7 +114730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 139.7 1174.75 0)
 			(effects
 				(font
@@ -114624,7 +114880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 187.96 660.4 0)
 			(effects
 				(font
@@ -114707,7 +114963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 217.17 1520.19 0)
 			(effects
 				(font
@@ -114790,7 +115046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 293.37 1445.26 0)
 			(effects
 				(font
@@ -114873,7 +115129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 190.5 146.05 0)
 			(effects
 				(font
@@ -114956,7 +115212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 234.95 1149.35 0)
 			(effects
 				(font
@@ -115039,7 +115295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 165.1 1003.3 0)
 			(effects
 				(font
@@ -115122,7 +115378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 152.4 364.49 0)
 			(effects
 				(font
@@ -115205,7 +115461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 165.1 979.17 0)
 			(effects
 				(font
@@ -115288,7 +115544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 146.05 1003.3 0)
 			(effects
 				(font
@@ -115438,7 +115694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 215.9 1276.35 0)
 			(effects
 				(font
@@ -115521,7 +115777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 266.7 440.69 0)
 			(effects
 				(font
@@ -115604,7 +115860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 195.58 0)
 			(effects
 				(font
@@ -115687,7 +115943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 222.25 953.77 0)
 			(effects
 				(font
@@ -115770,7 +116026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 236.22 1520.19 0)
 			(effects
 				(font
@@ -115853,7 +116109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "C17888:R1206"
 			(at 314.96 805.18 0)
 			(effects
 				(font
@@ -115930,7 +116186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 285.75 222.25 0)
 			(effects
 				(font
@@ -116013,7 +116269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 228.6 364.49 0)
 			(effects
 				(font
@@ -116096,7 +116352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 127 953.77 0)
 			(effects
 				(font
@@ -116408,7 +116664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 293.37 1572.26 0)
 			(effects
 				(font
@@ -116491,7 +116747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 209.55 222.25 0)
 			(effects
 				(font
@@ -116574,7 +116830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 217.17 1445.26 0)
 			(effects
 				(font
@@ -116720,7 +116976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 133.35 146.05 0)
 			(effects
 				(font
@@ -116803,7 +117059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 207.01 685.8 0)
 			(effects
 				(font
@@ -116886,7 +117142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 198.12 1445.26 0)
 			(effects
 				(font
@@ -116969,7 +117225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 298.45 877.57 0)
 			(effects
 				(font
@@ -117052,7 +117308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCPCB-C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
+		(property "Footprint" "C5349954:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
 			(at 234.95 1352.55 0)
 			(effects
 				(font
