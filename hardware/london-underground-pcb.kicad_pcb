@@ -1087,7 +1087,7 @@
 			(roundrect_rratio 0.222222)
 			(net 593 "Net-(LED500-DO)")
 			(pinfunction "1")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "1f1686c9-61e1-4a67-9f12-2011c3479e5b")
 		)
 		(pad "2" smd roundrect
@@ -1097,7 +1097,7 @@
 			(roundrect_rratio 0.222222)
 			(net 503 "ROW51")
 			(pinfunction "2")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "7ee3c932-ec70-465a-b75f-9092b67a8518")
 		)
 		(embedded_fonts no)
@@ -1294,7 +1294,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "93008891-db75-4fbe-b597-56c7b8ae4c0e")
 		)
 		(pad "2" smd rect
@@ -1518,7 +1518,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d5709118-5962-4945-b6d3-b94fbb5edfff")
 		)
 		(pad "2" smd rect
@@ -1742,7 +1742,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cb5b5702-aa1d-439b-851b-ec40f672df82")
 		)
 		(pad "2" smd rect
@@ -1966,7 +1966,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a88a8e3c-cb1f-4b9f-8555-f10866afd055")
 		)
 		(pad "2" smd rect
@@ -2190,7 +2190,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "18cd2c46-75e2-4f13-973a-14138a829a15")
 		)
 		(pad "2" smd rect
@@ -2414,7 +2414,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6216d0aa-8749-4f52-8002-14243d365551")
 		)
 		(pad "2" smd rect
@@ -2691,7 +2691,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2b56b8e6-e783-4b4a-b21e-614230e810b6")
 		)
 		(pad "2" smd rect
@@ -3153,7 +3153,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "74ad740a-c457-44f7-a97b-614d81965889")
 		)
 		(pad "2" smd rect
@@ -3377,7 +3377,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0f4fad81-c94a-4a28-8f0e-ea8c48f0aea1")
 		)
 		(pad "2" smd rect
@@ -3608,7 +3608,7 @@
 			(roundrect_rratio 0.222222)
 			(net 590 "Net-(LED200-DO)")
 			(pinfunction "1")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "400ffe0f-fb36-4fdb-bde7-98943e65ce53")
 		)
 		(pad "2" smd roundrect
@@ -3618,7 +3618,7 @@
 			(roundrect_rratio 0.222222)
 			(net 203 "ROW21")
 			(pinfunction "2")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "cfca0fae-ed8f-4487-bf71-22f29ed0b9d9")
 		)
 		(embedded_fonts no)
@@ -4053,7 +4053,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b69b6458-f676-443d-a863-06c70ca9845d")
 		)
 		(pad "2" smd rect
@@ -4277,7 +4277,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3b87d662-9fa1-4a43-bf55-b33810a4a073")
 		)
 		(pad "2" smd rect
@@ -4501,7 +4501,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a60a6c7d-86b7-4463-ad12-3c5a3ca56f9c")
 		)
 		(pad "2" smd rect
@@ -4725,7 +4725,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "00a0c2a6-7127-45da-b47b-7c526e0d8103")
 		)
 		(pad "2" smd rect
@@ -4938,7 +4938,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f11101cb-b026-473f-bb48-bc48b8f8ab95")
 		)
 		(pad "2" smd rect
@@ -5162,7 +5162,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e43a4b3f-ca7a-4c9d-ae5f-25da358598f6")
 		)
 		(pad "2" smd rect
@@ -5386,7 +5386,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ea6294d7-c70a-49d7-8a07-8fd9aa7d9f27")
 		)
 		(pad "2" smd rect
@@ -5610,7 +5610,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "957b7af0-fc9b-4bfc-9d51-41b4983c0ae1")
 		)
 		(pad "2" smd rect
@@ -5834,7 +5834,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6f7051ae-6f69-46b7-b292-e34df6386f46")
 		)
 		(pad "2" smd rect
@@ -6058,7 +6058,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "075df089-4fb4-4f8f-8753-bc2b0fc21a64")
 		)
 		(pad "2" smd rect
@@ -6271,7 +6271,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "04f32c9c-432c-4223-aaf3-330841f49d9a")
 		)
 		(pad "2" smd rect
@@ -6495,7 +6495,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6b5d7ebc-62e8-476a-879e-a4acd6159aa4")
 		)
 		(pad "2" smd rect
@@ -6719,7 +6719,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "efb97817-16a4-4f20-9fbe-6794afa8fedf")
 		)
 		(pad "2" smd rect
@@ -6943,7 +6943,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "75bc9484-26a9-414e-bc67-f780f2208352")
 		)
 		(pad "2" smd rect
@@ -7405,7 +7405,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6a0b1ce4-429a-4f77-b7b3-544f963d2823")
 		)
 		(pad "2" smd rect
@@ -7629,7 +7629,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e0e668ff-0123-4e03-b53b-5593f3218bf6")
 		)
 		(pad "2" smd rect
@@ -7853,7 +7853,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e9d3a779-967e-4c4b-aa0e-e3bc61beeccf")
 		)
 		(pad "2" smd rect
@@ -8315,7 +8315,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "45e87250-ad3c-46b7-accc-4fd89cd00f72")
 		)
 		(pad "2" smd rect
@@ -8777,7 +8777,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5dc1c4ae-896a-4372-8a30-e650bbf80785")
 		)
 		(pad "2" smd rect
@@ -9001,7 +9001,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "da62414d-4e0a-47dc-aa4c-cd148664371e")
 		)
 		(pad "2" smd rect
@@ -9225,7 +9225,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d7c079aa-3be0-4571-aad2-7cbb1c18c78a")
 		)
 		(pad "2" smd rect
@@ -9449,7 +9449,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f9b019e2-7fe4-4f76-8141-43bf3e349d9b")
 		)
 		(pad "2" smd rect
@@ -10017,7 +10017,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4729b689-0590-4cee-8314-413b47ca5c66")
 		)
 		(pad "2" smd rect
@@ -10241,7 +10241,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "71e5e4ca-1834-4e7c-9b66-c61c2ac53da4")
 		)
 		(pad "2" smd rect
@@ -10703,7 +10703,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5b08fb1b-7dc4-4e4d-a97c-ae5d1f128159")
 		)
 		(pad "2" smd rect
@@ -10927,7 +10927,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c21983fa-1b0d-49c2-a5ce-997430bed3e0")
 		)
 		(pad "2" smd rect
@@ -11151,7 +11151,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f8d39261-b43a-478c-8387-eaed1313fa90")
 		)
 		(pad "2" smd rect
@@ -11375,7 +11375,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "af7d1842-d2cc-4fed-bc1e-ee2454ba1fa3")
 		)
 		(pad "2" smd rect
@@ -11599,7 +11599,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a47d7edd-7acc-40a7-99e9-8001d7fe83d6")
 		)
 		(pad "2" smd rect
@@ -11823,7 +11823,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "90cf1786-07ff-4fe8-861c-34f09297dda3")
 		)
 		(pad "2" smd rect
@@ -12047,7 +12047,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e40d7574-4c89-4a97-8a44-ca62ff92861a")
 		)
 		(pad "2" smd rect
@@ -12271,7 +12271,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4b6f8ad3-52dd-4267-8e06-e94aae151f36")
 		)
 		(pad "2" smd rect
@@ -12495,7 +12495,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "21f62468-0643-47f7-9925-71fc76e03a19")
 		)
 		(pad "2" smd rect
@@ -12719,7 +12719,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "23d9f0f9-be09-4078-bfcc-90c6f6bf6c8b")
 		)
 		(pad "2" smd rect
@@ -12943,7 +12943,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "14055133-eb46-4dfc-8c9a-fc9abefacd96")
 		)
 		(pad "2" smd rect
@@ -13167,7 +13167,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1d48827f-c135-4478-bd4e-cd55be18b1fe")
 		)
 		(pad "2" smd rect
@@ -13391,7 +13391,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "361b1ae4-19b2-4af6-b075-9e5db1a97dc3")
 		)
 		(pad "2" smd rect
@@ -13615,7 +13615,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c3f7a284-96a2-452a-a876-176947a2a170")
 		)
 		(pad "2" smd rect
@@ -13839,7 +13839,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "70360a53-e703-400f-9244-dd884fde083e")
 		)
 		(pad "2" smd rect
@@ -14063,7 +14063,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fe3bad17-f7cf-44e5-a100-e9012a2ebda3")
 		)
 		(pad "2" smd rect
@@ -14287,7 +14287,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "99aa0f8c-4e53-4f6d-b339-c3de7117ffbf")
 		)
 		(pad "2" smd rect
@@ -14511,7 +14511,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f1a4276d-8326-4cf7-a788-a62cc08558b7")
 		)
 		(pad "2" smd rect
@@ -14735,7 +14735,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "43c932e5-6cd7-4925-9f1f-8331c9c79b08")
 		)
 		(pad "2" smd rect
@@ -14959,7 +14959,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "dc4326f6-30dd-428b-90f5-c7a923f5d418")
 		)
 		(pad "2" smd rect
@@ -15236,7 +15236,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "db2b71d1-5299-4593-835b-ff693a272f4a")
 		)
 		(pad "2" smd rect
@@ -15698,7 +15698,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "35c67d22-07ea-4d98-ad6c-68c1e2f3765c")
 		)
 		(pad "2" smd rect
@@ -15922,7 +15922,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c15c2876-43cd-488c-8540-4c383c9fb22f")
 		)
 		(pad "2" smd rect
@@ -16146,7 +16146,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8a0f26f2-da6d-4bc8-8ed0-ea10faae24f9")
 		)
 		(pad "2" smd rect
@@ -16370,7 +16370,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "777bdd4d-6099-45a7-952f-4571784a0cbc")
 		)
 		(pad "2" smd rect
@@ -16594,7 +16594,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "434aaba6-8e6e-43eb-a117-4582585b5e49")
 		)
 		(pad "2" smd rect
@@ -16818,7 +16818,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "897c17dc-f9d9-472d-ac1e-e56aed094964")
 		)
 		(pad "2" smd rect
@@ -17042,7 +17042,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "05e6b1e2-78d9-4282-9094-e5108f2a4ccd")
 		)
 		(pad "2" smd rect
@@ -17557,7 +17557,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "78c56c55-454b-498b-a601-89a337db503f")
 		)
 		(pad "2" smd rect
@@ -17781,7 +17781,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fc51fa48-9357-4abd-9533-9fb88a07f732")
 		)
 		(pad "2" smd rect
@@ -18005,7 +18005,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bc30cd6c-06a8-467b-aca1-0605d0bee08b")
 		)
 		(pad "2" smd rect
@@ -18229,7 +18229,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "96c7a92b-60e4-445e-8635-3eb96add76f6")
 		)
 		(pad "2" smd rect
@@ -18453,7 +18453,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "134f2f10-e423-4fc9-b992-254176bbcb4e")
 		)
 		(pad "2" smd rect
@@ -18677,7 +18677,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "70cbfe77-5c1b-422a-94b3-56cffa961585")
 		)
 		(pad "2" smd rect
@@ -18901,7 +18901,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "70be0488-50c1-44b2-b4f2-ccb61acc82b1")
 		)
 		(pad "2" smd rect
@@ -19363,7 +19363,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "76167ce7-42fa-42d9-bb6f-ba75214f867a")
 		)
 		(pad "2" smd rect
@@ -19587,7 +19587,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "74f88679-7628-47e2-abc8-30e77c5a5468")
 		)
 		(pad "2" smd rect
@@ -19811,7 +19811,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a2b2113d-0215-41e0-bb79-1cb743523168")
 		)
 		(pad "2" smd rect
@@ -20035,7 +20035,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7d27f001-7a68-4be9-9c6e-150c32ea4c73")
 		)
 		(pad "2" smd rect
@@ -20259,7 +20259,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "36820913-1829-4f67-ad89-31768ecd7ca1")
 		)
 		(pad "2" smd rect
@@ -20483,7 +20483,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "15639bb6-ad30-407d-8ec8-1791fee0f957")
 		)
 		(pad "2" smd rect
@@ -20707,7 +20707,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "90c558ce-238c-430d-ae77-c8db7d4ddad3")
 		)
 		(pad "2" smd rect
@@ -20931,7 +20931,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "357b7b2f-4f95-4038-b203-3a141a1d22f3")
 		)
 		(pad "2" smd rect
@@ -21155,7 +21155,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "24374b59-1147-4958-bf3c-9e3464f448b8")
 		)
 		(pad "2" smd rect
@@ -21481,7 +21481,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a4b81e70-dcab-4e24-a6f0-ca9e007b46ac")
 		)
 		(pad "2" smd rect
@@ -21705,7 +21705,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1d6fff35-ee5f-4001-b542-324c68496c7a")
 		)
 		(pad "2" smd rect
@@ -22167,7 +22167,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6a3e600d-e912-47eb-925b-63d200fea4c9")
 		)
 		(pad "2" smd rect
@@ -22391,7 +22391,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0455da5b-8146-407b-be93-3a66826322f6")
 		)
 		(pad "2" smd rect
@@ -22615,7 +22615,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "72599311-1205-4472-a7ab-d0f74d124df8")
 		)
 		(pad "2" smd rect
@@ -22839,7 +22839,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9a7679ff-c301-45e1-ae1c-320ea81310fb")
 		)
 		(pad "2" smd rect
@@ -23063,7 +23063,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "de6b666f-4e72-44a8-a835-e19f0de6f04a")
 		)
 		(pad "2" smd rect
@@ -23287,7 +23287,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8eb080e5-66db-4c35-9184-c95718cab991")
 		)
 		(pad "2" smd rect
@@ -23511,7 +23511,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e21a213b-f81d-4a56-b117-f06a9abb8410")
 		)
 		(pad "2" smd rect
@@ -23735,7 +23735,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d4569f23-f229-4aba-84fd-64a97d4a4c2c")
 		)
 		(pad "2" smd rect
@@ -23959,7 +23959,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4427f62a-56c9-4a72-899f-966309fd326a")
 		)
 		(pad "2" smd rect
@@ -24183,7 +24183,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a7e47f3f-fe79-469d-ab13-0cfbf2253b6d")
 		)
 		(pad "2" smd rect
@@ -24407,7 +24407,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f9e552a9-60ec-4627-8cca-636c99d987ec")
 		)
 		(pad "2" smd rect
@@ -24631,7 +24631,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "dbeb7a6c-b762-4c77-bce3-3574c2a6b37f")
 		)
 		(pad "2" smd rect
@@ -24855,7 +24855,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "89fae4f0-8ded-4803-b6cf-a83d6a040b8a")
 		)
 		(pad "2" smd rect
@@ -25079,7 +25079,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5241e1c0-66a2-4141-ab3e-a1a37a4a94fd")
 		)
 		(pad "2" smd rect
@@ -25303,7 +25303,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2fdda468-36e9-43e3-8576-1650a99c0b4d")
 		)
 		(pad "2" smd rect
@@ -25527,7 +25527,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "da43dd3e-a2d0-4cbc-8d10-8373d717c079")
 		)
 		(pad "2" smd rect
@@ -25751,7 +25751,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "49ffebd2-42ff-4e51-83d7-b970eb76827d")
 		)
 		(pad "2" smd rect
@@ -25975,7 +25975,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "25d29fc5-27f7-48a6-b62f-f4e648520117")
 		)
 		(pad "2" smd rect
@@ -26199,7 +26199,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2d0b7fad-fa97-4b9a-8bd3-6bb00273c3a5")
 		)
 		(pad "2" smd rect
@@ -26423,7 +26423,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "02a54f12-8178-4eb6-8fe6-97ce99a362b5")
 		)
 		(pad "2" smd rect
@@ -26647,7 +26647,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "232c544c-b4f3-45c8-ad2d-90a72dd31f85")
 		)
 		(pad "2" smd rect
@@ -26871,7 +26871,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a9689539-2f55-459d-b446-226870134d12")
 		)
 		(pad "2" smd rect
@@ -27095,7 +27095,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2e1bf043-48c9-4740-8325-c2a7245a6003")
 		)
 		(pad "2" smd rect
@@ -27319,7 +27319,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "032b9e99-b212-4d1a-ab4b-0c5505c1237c")
 		)
 		(pad "2" smd rect
@@ -27543,7 +27543,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "418db9a1-b350-4eb4-a70d-9729f72cc2ba")
 		)
 		(pad "2" smd rect
@@ -27767,7 +27767,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e56b7b5f-be80-4c6c-8d9f-57e04fc75a4b")
 		)
 		(pad "2" smd rect
@@ -27998,7 +27998,7 @@
 			(roundrect_rratio 0.222222)
 			(net 1 "LED_IN")
 			(pinfunction "1")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "bde9467e-26fa-41ba-91cc-edf4df1b2751")
 		)
 		(pad "2" smd roundrect
@@ -28008,7 +28008,7 @@
 			(roundrect_rratio 0.222222)
 			(net 589 "Net-(LED1-DI)")
 			(pinfunction "2")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "de31fdce-8893-4cc6-8532-cae4664610bf")
 		)
 		(embedded_fonts no)
@@ -28205,7 +28205,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0f2729e7-b248-4b4c-b043-4ebd7c746ccf")
 		)
 		(pad "2" smd rect
@@ -28429,7 +28429,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "043bf2e2-f63c-40dc-bec5-d52dffd08ac4")
 		)
 		(pad "2" smd rect
@@ -28653,7 +28653,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8ee61bf5-83bb-4eb7-946a-682e561e68b5")
 		)
 		(pad "2" smd rect
@@ -28877,7 +28877,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "735258c2-0b6e-4e27-aead-561959ad348c")
 		)
 		(pad "2" smd rect
@@ -29101,7 +29101,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3722fdee-19a9-4391-8f2c-2506b9f59272")
 		)
 		(pad "2" smd rect
@@ -29325,7 +29325,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cd4b1b59-f795-43d7-89fc-dbfdbc6f7c11")
 		)
 		(pad "2" smd rect
@@ -29549,7 +29549,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5337efdc-4bae-46e2-83be-6b6ea397260f")
 		)
 		(pad "2" smd rect
@@ -29773,7 +29773,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "72826965-7efe-4e4b-bea5-fd2a4b737eb9")
 		)
 		(pad "2" smd rect
@@ -29997,7 +29997,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "67441e45-b449-491e-a9f7-e05d68eb2f07")
 		)
 		(pad "2" smd rect
@@ -30221,7 +30221,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c9ca7afe-f9a8-4ae1-bced-d85469bf74d2")
 		)
 		(pad "2" smd rect
@@ -30445,7 +30445,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "98254376-6bcc-406c-8cd0-d08afd91fafa")
 		)
 		(pad "2" smd rect
@@ -30669,7 +30669,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bfa28994-dbd1-4358-b731-3e111051c03a")
 		)
 		(pad "2" smd rect
@@ -30893,7 +30893,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "20375511-abe9-4c1a-8308-8854d0313ca3")
 		)
 		(pad "2" smd rect
@@ -31170,7 +31170,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0214b469-a176-47c2-994e-c057678bbeba")
 		)
 		(pad "2" smd rect
@@ -31394,7 +31394,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "706257b2-01f3-44e8-992b-9fddbdebda28")
 		)
 		(pad "2" smd rect
@@ -31618,7 +31618,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d4e8fd2e-ece5-4de0-a4ea-2f8279904885")
 		)
 		(pad "2" smd rect
@@ -31842,7 +31842,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3c187adc-6a64-4b84-abe4-42fb175c6729")
 		)
 		(pad "2" smd rect
@@ -32066,7 +32066,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b7a51cf5-d6bf-4baf-b734-203d5913a451")
 		)
 		(pad "2" smd rect
@@ -32290,7 +32290,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7c7e6b11-08b6-4cc0-a2b0-ab7a0e78383d")
 		)
 		(pad "2" smd rect
@@ -32514,7 +32514,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "309f0f5c-18f2-4e8a-ac7a-81015fd849a2")
 		)
 		(pad "2" smd rect
@@ -147147,7 +147147,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9b6c0844-faf7-4028-8f31-2fddb9e4da2d")
 		)
 		(pad "2" smd rect
@@ -147371,7 +147371,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "eb2313f4-4671-4ed7-b39b-41a664d96707")
 		)
 		(pad "2" smd rect
@@ -147595,7 +147595,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "734f9e70-7118-43ee-b9d3-b325dd98fde0")
 		)
 		(pad "2" smd rect
@@ -147819,7 +147819,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "78151ce3-f6e7-4faa-9828-b7f0b396c1cf")
 		)
 		(pad "2" smd rect
@@ -148043,7 +148043,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "dd454d84-08f6-4c4e-a07b-ab560b5b82c2")
 		)
 		(pad "2" smd rect
@@ -148267,7 +148267,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "58303830-72df-4764-9828-aad5e5438122")
 		)
 		(pad "2" smd rect
@@ -148491,7 +148491,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1bba4a71-b6d5-4233-9d46-525c8c00c503")
 		)
 		(pad "2" smd rect
@@ -148715,7 +148715,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9240f7be-0dff-4cad-b294-00b8ed995bbb")
 		)
 		(pad "2" smd rect
@@ -148939,7 +148939,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e1b9d79b-aff8-4e98-b5d7-e8bf86873564")
 		)
 		(pad "2" smd rect
@@ -149163,7 +149163,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bcd46aaa-1e9b-469a-9728-47ba54ec3b17")
 		)
 		(pad "2" smd rect
@@ -149387,7 +149387,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "eff36b4d-9b7e-42f9-b115-087b3a2e3dd9")
 		)
 		(pad "2" smd rect
@@ -149611,7 +149611,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "92d4e53e-8e32-479e-8a84-7c395c60c915")
 		)
 		(pad "2" smd rect
@@ -149835,7 +149835,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b4050490-492e-474f-89ac-ad1adbe59981")
 		)
 		(pad "2" smd rect
@@ -150059,7 +150059,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b9a86d8e-c5b8-4317-b660-60ec5f6fb3ff")
 		)
 		(pad "2" smd rect
@@ -150283,7 +150283,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0ae019a3-9406-4c52-8b18-ab19eedabc94")
 		)
 		(pad "2" smd rect
@@ -150507,7 +150507,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4b235645-b41b-43a3-9d6d-5aa4e8d27a24")
 		)
 		(pad "2" smd rect
@@ -150731,7 +150731,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1dff1ffe-f216-4816-a0e8-6d01ad5bc42b")
 		)
 		(pad "2" smd rect
@@ -151431,7 +151431,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8eb371e4-70b3-40d5-a088-e78c78088c17")
 		)
 		(pad "2" smd rect
@@ -151655,7 +151655,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8aed714a-9dd6-40d1-94a7-92de56444064")
 		)
 		(pad "2" smd rect
@@ -151879,7 +151879,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e68a6f6b-19d3-4438-8cfb-d73d485f0707")
 		)
 		(pad "2" smd rect
@@ -152103,7 +152103,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fcfe6bdb-169f-4342-a541-6fcc97c54946")
 		)
 		(pad "2" smd rect
@@ -152327,7 +152327,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a8401460-979a-4659-8213-ea98459b7797")
 		)
 		(pad "2" smd rect
@@ -152551,7 +152551,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d1da89b5-d82a-49ef-afe5-da8f6ec04d11")
 		)
 		(pad "2" smd rect
@@ -152775,7 +152775,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bfe923a6-bbcc-4707-b128-7c26e2035110")
 		)
 		(pad "2" smd rect
@@ -152999,7 +152999,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2d344f1f-2b4f-49bc-91f5-c0fc1fcc2664")
 		)
 		(pad "2" smd rect
@@ -153223,7 +153223,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9d696bea-a2f4-4322-835d-5f51b936a11a")
 		)
 		(pad "2" smd rect
@@ -153447,7 +153447,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bb67fbdf-54f2-4c89-9651-43b948cfa239")
 		)
 		(pad "2" smd rect
@@ -153671,7 +153671,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b0d58f77-8600-4ab8-aef1-6aae0091962a")
 		)
 		(pad "2" smd rect
@@ -153895,7 +153895,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7c2b0046-fdb5-4293-9e71-a8dcc86ad1f8")
 		)
 		(pad "2" smd rect
@@ -154119,7 +154119,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c5d0ef69-92a3-4bec-9e54-28cbae01e3c4")
 		)
 		(pad "2" smd rect
@@ -154343,7 +154343,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "923e2d43-c70f-4e20-a24f-5c1ce8f61a07")
 		)
 		(pad "2" smd rect
@@ -154567,7 +154567,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "29249ca2-160e-4f28-9e47-82cd5e3c04a7")
 		)
 		(pad "2" smd rect
@@ -154791,7 +154791,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "78483ae5-ade7-4324-afe2-2108e17cc038")
 		)
 		(pad "2" smd rect
@@ -155015,7 +155015,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f95cf0eb-504a-4ca6-a602-48a44ace25a7")
 		)
 		(pad "2" smd rect
@@ -155239,7 +155239,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "abc55cdc-6d61-4268-8b40-df3369b50848")
 		)
 		(pad "2" smd rect
@@ -155463,7 +155463,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b27c7efa-2904-4fcf-8474-99ace6251859")
 		)
 		(pad "2" smd rect
@@ -155740,7 +155740,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ced61b27-4b36-4e6f-9828-03ffd01f3284")
 		)
 		(pad "2" smd rect
@@ -155964,7 +155964,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b27e44b3-04c6-4c35-a92d-203ec32b36ab")
 		)
 		(pad "2" smd rect
@@ -156902,7 +156902,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0429c7e9-7ed0-4f90-8372-1948dc1a05a1")
 		)
 		(pad "2" smd rect
@@ -157126,7 +157126,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "283d2fdf-feb6-4aa5-8112-fcc72e1582d4")
 		)
 		(pad "2" smd rect
@@ -157350,7 +157350,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4945f792-f96a-4ac7-8fd1-69647c73887b")
 		)
 		(pad "2" smd rect
@@ -157574,7 +157574,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "908a4187-f08a-44f5-b03b-a62ad96987e8")
 		)
 		(pad "2" smd rect
@@ -157798,7 +157798,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ae16d859-9d75-4daf-bf77-629b75026f35")
 		)
 		(pad "2" smd rect
@@ -158075,7 +158075,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "804570d3-3942-4d11-9128-580f34c63b42")
 		)
 		(pad "2" smd rect
@@ -158557,7 +158557,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "80998fc6-f746-4256-a495-926b27e822e4")
 		)
 		(pad "2" smd rect
@@ -158781,7 +158781,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "66829397-7b32-4714-b211-478b818c6611")
 		)
 		(pad "2" smd rect
@@ -159005,7 +159005,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ba1e6dee-c79c-4878-995d-4890a6695c64")
 		)
 		(pad "2" smd rect
@@ -159467,7 +159467,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "22dac6e8-ff76-4531-9e8f-cd3cf20c26be")
 		)
 		(pad "2" smd rect
@@ -159691,7 +159691,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9ff220b8-ff39-4e86-bf81-ec5f0576d3a7")
 		)
 		(pad "2" smd rect
@@ -159915,7 +159915,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7db0efaf-f60b-4053-bc62-16648253670e")
 		)
 		(pad "2" smd rect
@@ -160139,7 +160139,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b7c62213-e90a-4623-8650-9d86933e0d3e")
 		)
 		(pad "2" smd rect
@@ -160363,7 +160363,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a6cfe5d6-37bf-4b01-917f-2fe885dcdf36")
 		)
 		(pad "2" smd rect
@@ -160587,7 +160587,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "25e9bb16-2119-40b0-90c3-8faa46b8d287")
 		)
 		(pad "2" smd rect
@@ -160811,7 +160811,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f4773d66-a4e8-49ca-af75-3e13672f3a4c")
 		)
 		(pad "2" smd rect
@@ -161035,7 +161035,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d5bb7b96-9015-4e72-acd1-b14d7c558761")
 		)
 		(pad "2" smd rect
@@ -161259,7 +161259,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "087dea40-0957-4ecc-87d7-82099150b546")
 		)
 		(pad "2" smd rect
@@ -161483,7 +161483,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9407ecf7-998e-448f-bf97-48f166979589")
 		)
 		(pad "2" smd rect
@@ -161707,7 +161707,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e0eeeb84-1200-4f49-be49-19de058b43e9")
 		)
 		(pad "2" smd rect
@@ -161931,7 +161931,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1e3b6859-3a2d-4ca1-afd5-ab1cbe0e1792")
 		)
 		(pad "2" smd rect
@@ -162155,7 +162155,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0d0e2899-cacc-409c-8912-ec5a977347ce")
 		)
 		(pad "2" smd rect
@@ -162379,7 +162379,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5088106b-167c-4286-9860-eedd52a381bb")
 		)
 		(pad "2" smd rect
@@ -162603,7 +162603,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d59ecb36-ba9a-4ac6-a726-587189d0d890")
 		)
 		(pad "2" smd rect
@@ -162827,7 +162827,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "783353bc-2097-4764-b986-a9ca1b804f4c")
 		)
 		(pad "2" smd rect
@@ -163051,7 +163051,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3d935760-6c67-4526-9706-ac26079d0df8")
 		)
 		(pad "2" smd rect
@@ -163275,7 +163275,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "41fc6a95-b7ac-45f9-92ae-7d57b7167750")
 		)
 		(pad "2" smd rect
@@ -163499,7 +163499,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8e526a27-ee42-471a-92d5-30b6e69de5a3")
 		)
 		(pad "2" smd rect
@@ -163723,7 +163723,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0005a402-88f0-4f73-a302-53b44c31cd03")
 		)
 		(pad "2" smd rect
@@ -163947,7 +163947,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1bbddbeb-a316-4f44-bfc6-3c8f97b738dc")
 		)
 		(pad "2" smd rect
@@ -164171,7 +164171,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "03810c81-f619-403f-b5c8-b44c9fef6647")
 		)
 		(pad "2" smd rect
@@ -164395,7 +164395,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "870914f8-d552-41fe-9f9d-64b481d10195")
 		)
 		(pad "2" smd rect
@@ -164619,7 +164619,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d2db52ee-4d44-411f-b66d-53faa42aab27")
 		)
 		(pad "2" smd rect
@@ -164843,7 +164843,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6b2ba28e-e3b4-417a-b6b3-99420ac0e386")
 		)
 		(pad "2" smd rect
@@ -165305,7 +165305,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a43b24e3-f899-4e17-86dd-421db04791fe")
 		)
 		(pad "2" smd rect
@@ -165529,7 +165529,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1d63e39e-12b5-440d-818d-fc441dbc0c20")
 		)
 		(pad "2" smd rect
@@ -165753,7 +165753,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6869e29a-f125-4b2b-954e-bc5a27f0b85d")
 		)
 		(pad "2" smd rect
@@ -165977,7 +165977,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e02c7a83-a58d-4c26-9c49-605fd45bbd9f")
 		)
 		(pad "2" smd rect
@@ -166201,7 +166201,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ab6a488c-7877-46e5-b8ce-9567ee8f5675")
 		)
 		(pad "2" smd rect
@@ -166478,7 +166478,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "13a84d18-3e13-43c4-9c3d-b3e5c6c5df9a")
 		)
 		(pad "2" smd rect
@@ -166702,7 +166702,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "305e2d37-90c8-4ff4-aba9-348b6c80a110")
 		)
 		(pad "2" smd rect
@@ -167164,7 +167164,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3ea6f6b4-58ea-46ad-b21e-1caad8db7c60")
 		)
 		(pad "2" smd rect
@@ -167388,7 +167388,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "48635809-277e-46b3-9e9d-81a00fff3dfd")
 		)
 		(pad "2" smd rect
@@ -167601,7 +167601,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9fcd34e5-ec4c-4eb5-8df4-ee1f8635a3e6")
 		)
 		(pad "2" smd rect
@@ -167825,7 +167825,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e6a203e9-8b55-4cfb-9a98-ed12c10ccfb6")
 		)
 		(pad "2" smd rect
@@ -168049,7 +168049,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2a2b6820-62c4-4954-83a5-7472a8f35376")
 		)
 		(pad "2" smd rect
@@ -168273,7 +168273,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4ecbd57e-e833-4c4a-bbcd-2008395c3391")
 		)
 		(pad "2" smd rect
@@ -168497,7 +168497,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "35040055-dc98-4668-9316-463a08f41bd6")
 		)
 		(pad "2" smd rect
@@ -168721,7 +168721,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f596e0bc-79ea-4582-9478-612da8db9d6b")
 		)
 		(pad "2" smd rect
@@ -168945,7 +168945,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1c61d066-2eeb-4210-b10a-c268d94b46ec")
 		)
 		(pad "2" smd rect
@@ -169169,7 +169169,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "46c2d65e-54ef-45fc-a060-e25246708a6b")
 		)
 		(pad "2" smd rect
@@ -169393,7 +169393,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c4ba9ca4-77d4-4f4f-b801-cb84dbd9a673")
 		)
 		(pad "2" smd rect
@@ -169617,7 +169617,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5fd1fb84-fa3e-44c6-b109-a157ea8b7e4a")
 		)
 		(pad "2" smd rect
@@ -169841,7 +169841,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5afc5e3e-1e0a-494e-a7c9-dd13bd8feaee")
 		)
 		(pad "2" smd rect
@@ -170118,7 +170118,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a7efda36-6966-4da2-9215-b31f0a9bfdca")
 		)
 		(pad "2" smd rect
@@ -170342,7 +170342,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b1a7e24d-defa-4332-ae01-a1a4374c2ba9")
 		)
 		(pad "2" smd rect
@@ -170566,7 +170566,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "79bc50ff-e6d8-4ecb-bb26-a45d8cfca040")
 		)
 		(pad "2" smd rect
@@ -170790,7 +170790,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "11e16499-484d-47f9-a6cc-d4392ca3f916")
 		)
 		(pad "2" smd rect
@@ -171014,7 +171014,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1cb2a7b1-fcd3-46c9-af01-f14f73006633")
 		)
 		(pad "2" smd rect
@@ -171238,7 +171238,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e2ce2965-38ae-4abf-9859-01220cb9ec71")
 		)
 		(pad "2" smd rect
@@ -171462,7 +171462,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d91bdc91-c895-442d-bb66-18cd52c39b07")
 		)
 		(pad "2" smd rect
@@ -171686,7 +171686,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2c9070ee-0701-4358-9b4a-aadefdfd0f0e")
 		)
 		(pad "2" smd rect
@@ -171910,7 +171910,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "550ede70-7f36-4262-a29a-e706859ab9a3")
 		)
 		(pad "2" smd rect
@@ -172134,7 +172134,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cb2d7fba-8983-4229-b56e-02367dc0901e")
 		)
 		(pad "2" smd rect
@@ -172358,7 +172358,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1e862884-a20e-4269-b41e-be1a105b3860")
 		)
 		(pad "2" smd rect
@@ -172582,7 +172582,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ec6515b1-3773-4910-b20d-7b1d326e9a8f")
 		)
 		(pad "2" smd rect
@@ -172806,7 +172806,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cfbc5d49-241f-4223-9fbf-e9fdef8c37ce")
 		)
 		(pad "2" smd rect
@@ -173030,7 +173030,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "163e13cd-89bb-49d3-88c1-471f53176f74")
 		)
 		(pad "2" smd rect
@@ -173254,7 +173254,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1b077745-6569-4491-aaf8-6265ab4bb1d6")
 		)
 		(pad "2" smd rect
@@ -173478,7 +173478,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "55a19acb-db25-42da-b24c-377a71f72f4f")
 		)
 		(pad "2" smd rect
@@ -173702,7 +173702,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e4a4b936-3c74-4a3f-a34f-03f344fa0498")
 		)
 		(pad "2" smd rect
@@ -174402,7 +174402,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "42bb2554-5834-48ad-a9c2-4798052c57b3")
 		)
 		(pad "2" smd rect
@@ -174626,7 +174626,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0f9cf912-9fb1-4c13-9ba8-36544c3dc0d7")
 		)
 		(pad "2" smd rect
@@ -174850,7 +174850,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fc714565-65d5-4e97-b3d4-6625784611d2")
 		)
 		(pad "2" smd rect
@@ -175074,7 +175074,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a4eb1a28-f62e-4608-b056-343d68f5bcf8")
 		)
 		(pad "2" smd rect
@@ -175298,7 +175298,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "95c2f48e-5ff1-4b23-8930-151e859d98f7")
 		)
 		(pad "2" smd rect
@@ -175522,7 +175522,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "827e29d2-63b6-4116-95a0-dc24b031d05e")
 		)
 		(pad "2" smd rect
@@ -175746,7 +175746,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ecaabc61-8927-434e-aba4-8922fd0e78f4")
 		)
 		(pad "2" smd rect
@@ -175970,7 +175970,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a2997fcd-0a95-478d-8974-6b9475bcd526")
 		)
 		(pad "2" smd rect
@@ -176194,7 +176194,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fabfd5ce-9d9b-4ae4-ad99-75ca23ffe5ca")
 		)
 		(pad "2" smd rect
@@ -176656,7 +176656,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "17629cd2-5776-4910-9b7d-5cab6abd84f6")
 		)
 		(pad "2" smd rect
@@ -176880,7 +176880,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ec40873c-1117-4763-9f1f-be5fba80dc32")
 		)
 		(pad "2" smd rect
@@ -177104,7 +177104,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "34b7cd24-6776-461e-8b45-f68392707e50")
 		)
 		(pad "2" smd rect
@@ -177328,7 +177328,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5be7524c-3cd6-42f6-93c7-7e89c9600d0c")
 		)
 		(pad "2" smd rect
@@ -177790,7 +177790,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a9ece42c-eb79-4256-b63d-a33c3f0297ce")
 		)
 		(pad "2" smd rect
@@ -178014,7 +178014,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "061bd323-29f1-46ce-9707-3774d84376b5")
 		)
 		(pad "2" smd rect
@@ -178714,7 +178714,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3aeb133c-c33f-491a-9358-c8a016b9c704")
 		)
 		(pad "2" smd rect
@@ -178938,7 +178938,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d6621ee4-fd97-49b4-812d-affb3a28b706")
 		)
 		(pad "2" smd rect
@@ -179162,7 +179162,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fb6d8e6f-6b9f-47a9-96a3-472614d16939")
 		)
 		(pad "2" smd rect
@@ -179439,7 +179439,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b57e3c58-11e5-4a26-8fca-e2a4dd5dd7ba")
 		)
 		(pad "2" smd rect
@@ -179663,7 +179663,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "df5472a3-eb78-4c3d-85e3-7eee0804e724")
 		)
 		(pad "2" smd rect
@@ -179887,7 +179887,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "003a9739-f148-4ba0-b3b1-8d609a6e4f93")
 		)
 		(pad "2" smd rect
@@ -180111,7 +180111,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3a86696f-aad4-4110-a7f1-caec6dd5b994")
 		)
 		(pad "2" smd rect
@@ -180335,7 +180335,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "aefab3da-ae3c-4e52-9284-33e0c2017ed4")
 		)
 		(pad "2" smd rect
@@ -180559,7 +180559,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "511a933e-2059-4264-9967-8bac776022bd")
 		)
 		(pad "2" smd rect
@@ -180783,7 +180783,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8f593b3a-9f62-4447-a066-2282a3e8b2e6")
 		)
 		(pad "2" smd rect
@@ -181007,7 +181007,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0b3a3958-3458-474f-9e80-7cabb5709ed1")
 		)
 		(pad "2" smd rect
@@ -181231,7 +181231,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6f1c293a-b588-47f9-be9d-331de235adf8")
 		)
 		(pad "2" smd rect
@@ -181455,7 +181455,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d7d685d4-9ef3-4b0a-89ff-15d11901ab1b")
 		)
 		(pad "2" smd rect
@@ -182155,7 +182155,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6f9eb48f-cea6-4e19-9738-a01704180d69")
 		)
 		(pad "2" smd rect
@@ -182379,7 +182379,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2458ac39-6051-4aa8-8a7a-6e7effe2c4f1")
 		)
 		(pad "2" smd rect
@@ -182603,7 +182603,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c5496102-8e63-4184-84e9-327b0e67b268")
 		)
 		(pad "2" smd rect
@@ -182827,7 +182827,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2309478c-45b3-4d30-8058-5f2ccebb258e")
 		)
 		(pad "2" smd rect
@@ -183051,7 +183051,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1d45eccf-ebd4-42d4-b3bf-6b80a63922cb")
 		)
 		(pad "2" smd rect
@@ -183275,7 +183275,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8aee0e61-06c5-44e1-afaf-f08560d065e3")
 		)
 		(pad "2" smd rect
@@ -183499,7 +183499,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d46775cc-26b1-439a-9db1-60a0a6c83a84")
 		)
 		(pad "2" smd rect
@@ -183723,7 +183723,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4613bc5b-1ba5-41e0-bef5-e9a46c243aef")
 		)
 		(pad "2" smd rect
@@ -184185,7 +184185,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "922d3ff9-5af7-4a7f-80fc-057db6de11ff")
 		)
 		(pad "2" smd rect
@@ -184409,7 +184409,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "59cb11ff-b4f3-4ec3-86b9-9a1f8cd7ec8a")
 		)
 		(pad "2" smd rect
@@ -184924,7 +184924,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f2be9fb9-ed98-448b-9eeb-e103edc60d34")
 		)
 		(pad "2" smd rect
@@ -185488,7 +185488,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d5dc427d-c4fd-4a4f-8438-a20eebd765eb")
 		)
 		(pad "2" smd rect
@@ -185712,7 +185712,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f7bc89b3-23fb-4f5c-bae7-5b7df6ad7de2")
 		)
 		(pad "2" smd rect
@@ -185936,7 +185936,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6ed684a2-a720-48a1-bb27-e1ebd47dcd6c")
 		)
 		(pad "2" smd rect
@@ -186160,7 +186160,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "52bd547a-dcdf-414e-9401-de32d618626d")
 		)
 		(pad "2" smd rect
@@ -186384,7 +186384,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "54386a6f-d85f-4ab5-905f-b5525eafc91b")
 		)
 		(pad "2" smd rect
@@ -186608,7 +186608,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "efe187c6-310c-44de-b28f-133c783877ac")
 		)
 		(pad "2" smd rect
@@ -186832,7 +186832,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "460b85d8-f31c-4fa3-ba62-b48a10989acb")
 		)
 		(pad "2" smd rect
@@ -187056,7 +187056,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "14d22ddf-4a43-4afb-adac-276fa7e396a0")
 		)
 		(pad "2" smd rect
@@ -187280,7 +187280,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4f2b6627-e041-468e-9a88-75fb6f3c451d")
 		)
 		(pad "2" smd rect
@@ -187980,7 +187980,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a03058b8-5f89-42fb-a824-610e1f9a7a3f")
 		)
 		(pad "2" smd rect
@@ -188204,7 +188204,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6a61b232-1d47-4b1c-a2f9-43e1a60348ad")
 		)
 		(pad "2" smd rect
@@ -188428,7 +188428,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "26430680-9463-48f4-82a1-de3880b5dde6")
 		)
 		(pad "2" smd rect
@@ -188652,7 +188652,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3030494e-b552-485d-95b6-4657188fcfba")
 		)
 		(pad "2" smd rect
@@ -188876,7 +188876,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fb831ba5-4392-4ac8-aaa8-fda96686b97d")
 		)
 		(pad "2" smd rect
@@ -189100,7 +189100,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3072522b-cb67-4148-9f4f-8db6aff44902")
 		)
 		(pad "2" smd rect
@@ -189331,7 +189331,7 @@
 			(roundrect_rratio 0.222222)
 			(net 591 "Net-(LED300-DO)")
 			(pinfunction "1")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "afc2c8fe-a433-4146-b041-8452c1b87c7a")
 		)
 		(pad "2" smd roundrect
@@ -189341,7 +189341,7 @@
 			(roundrect_rratio 0.222222)
 			(net 303 "ROW31")
 			(pinfunction "2")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "6becd292-b13d-4999-b72f-dc126715e86f")
 		)
 		(embedded_fonts no)
@@ -189538,7 +189538,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "039a9f79-b3c1-4815-9931-a2ab8203e042")
 		)
 		(pad "2" smd rect
@@ -189762,7 +189762,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a00e6be6-dc10-432c-916d-35d3d5965871")
 		)
 		(pad "2" smd rect
@@ -189986,7 +189986,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "01bb62d6-91ff-4058-988f-805f59b571bd")
 		)
 		(pad "2" smd rect
@@ -190501,7 +190501,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a344135a-9a19-4560-9faa-aef78ad4e426")
 		)
 		(pad "2" smd rect
@@ -190725,7 +190725,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cd35b2ba-8b07-4b22-8b49-452ef3d5bc83")
 		)
 		(pad "2" smd rect
@@ -191002,7 +191002,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "af03d2eb-8e0e-4a72-ab87-a2e00db23a48")
 		)
 		(pad "2" smd rect
@@ -191226,7 +191226,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7a7ad1ec-394b-4615-a32b-3aaa325667c2")
 		)
 		(pad "2" smd rect
@@ -191450,7 +191450,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "09c74ab9-4726-4c2a-ba25-5482c5cfa48f")
 		)
 		(pad "2" smd rect
@@ -191776,7 +191776,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8bcae4b3-a8e5-4d05-bebc-275badf43dcb")
 		)
 		(pad "2" smd rect
@@ -192000,7 +192000,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "81a0097b-13c3-4fe7-ae87-ff45886c1d82")
 		)
 		(pad "2" smd rect
@@ -192224,7 +192224,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "66b4ebdc-bf95-467c-bc42-365eebe92fc9")
 		)
 		(pad "2" smd rect
@@ -192448,7 +192448,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bf7025c1-7bba-4a79-9db6-4076623d345d")
 		)
 		(pad "2" smd rect
@@ -192672,7 +192672,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ac17f88e-2c0a-4295-94a2-839f202fba54")
 		)
 		(pad "2" smd rect
@@ -192896,7 +192896,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "66ff04ed-4f44-4d65-9e33-d068b66dfa24")
 		)
 		(pad "2" smd rect
@@ -193120,7 +193120,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "09da2a97-8a89-4e40-a8d8-fd2915687990")
 		)
 		(pad "2" smd rect
@@ -193344,7 +193344,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ca705a82-9052-4ac1-a06c-250f332b7a27")
 		)
 		(pad "2" smd rect
@@ -193568,7 +193568,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0f2c9ef9-2ddc-4e78-a5c1-569f6b2c41b0")
 		)
 		(pad "2" smd rect
@@ -193792,7 +193792,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "beb032ba-b0f3-426f-947e-582dd97721f7")
 		)
 		(pad "2" smd rect
@@ -194016,7 +194016,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4d7fcfd3-4a4d-4d18-b00f-8895f39d9059")
 		)
 		(pad "2" smd rect
@@ -194240,7 +194240,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8bd654b5-48c2-4e3d-b489-6c096181b94b")
 		)
 		(pad "2" smd rect
@@ -194464,7 +194464,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8b408797-e36e-478f-854b-bfd1f8e0d271")
 		)
 		(pad "2" smd rect
@@ -194688,7 +194688,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6bf8aeca-ac15-4218-bf89-068ca544c350")
 		)
 		(pad "2" smd rect
@@ -194912,7 +194912,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "784e1559-31e6-4955-a606-54b678e53f0e")
 		)
 		(pad "2" smd rect
@@ -195136,7 +195136,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "30f4047a-f677-4543-93ba-6add4f70184f")
 		)
 		(pad "2" smd rect
@@ -195360,7 +195360,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9eb7daf7-0604-43ed-a4fd-6a1c1257c194")
 		)
 		(pad "2" smd rect
@@ -195584,7 +195584,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "aec52e3e-2a5e-4958-a54e-0c67963840a1")
 		)
 		(pad "2" smd rect
@@ -195808,7 +195808,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ed7d7a7b-ea46-462b-9699-9cf193123e5c")
 		)
 		(pad "2" smd rect
@@ -196032,7 +196032,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e1b93b77-0b82-4575-b36f-f141dc434661")
 		)
 		(pad "2" smd rect
@@ -196256,7 +196256,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9a2086a2-822c-4809-ba93-a120859bf936")
 		)
 		(pad "2" smd rect
@@ -196480,7 +196480,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "76a8753a-ce58-4f1a-87b8-3056d319c928")
 		)
 		(pad "2" smd rect
@@ -196704,7 +196704,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "57fb7325-a288-4587-a071-66a8832c7f64")
 		)
 		(pad "2" smd rect
@@ -196928,7 +196928,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "396fae3a-1ea0-45a0-94da-eb6c8f3ccc6d")
 		)
 		(pad "2" smd rect
@@ -197205,7 +197205,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4474bf2b-e059-434d-975c-903e741b8a7b")
 		)
 		(pad "2" smd rect
@@ -197429,7 +197429,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "eeda3f8f-aac1-46e0-bd4c-0d3be311a02b")
 		)
 		(pad "2" smd rect
@@ -197653,7 +197653,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d8c761eb-657f-437a-99de-6ca8a9a63b04")
 		)
 		(pad "2" smd rect
@@ -197877,7 +197877,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c097ba8b-ba39-4e8d-a1c9-afdd46ada31f")
 		)
 		(pad "2" smd rect
@@ -198101,7 +198101,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "049e94ee-23fb-4307-b606-efdfb96d9a5a")
 		)
 		(pad "2" smd rect
@@ -198325,7 +198325,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "72fcd8a6-eac4-4d64-bc50-2a7bf0b8a325")
 		)
 		(pad "2" smd rect
@@ -198549,7 +198549,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7a778a79-72c6-4969-8090-13579a5318b0")
 		)
 		(pad "2" smd rect
@@ -198773,7 +198773,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3b9c9fbc-a697-4ff9-8735-d985a1af9e6d")
 		)
 		(pad "2" smd rect
@@ -198997,7 +198997,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "71578f71-639d-4134-9977-257034fb4ca8")
 		)
 		(pad "2" smd rect
@@ -199221,7 +199221,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2474c822-8c89-4da2-81a0-fb36229bd94d")
 		)
 		(pad "2" smd rect
@@ -199445,7 +199445,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "866d05a6-bb89-4e1d-8ab8-52a698a1377f")
 		)
 		(pad "2" smd rect
@@ -199669,7 +199669,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4094feb4-6224-4644-b583-2486aac620a5")
 		)
 		(pad "2" smd rect
@@ -199893,7 +199893,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5fad93de-ef58-4a12-af16-47dbcb246003")
 		)
 		(pad "2" smd rect
@@ -200170,7 +200170,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f43c0a3a-4e65-4403-8ef0-bfd8f4c34d03")
 		)
 		(pad "2" smd rect
@@ -200394,7 +200394,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c284e58a-f330-4fcb-8ce0-c428fa843806")
 		)
 		(pad "2" smd rect
@@ -200909,7 +200909,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "863b369f-2088-4ebb-be66-10867b506a82")
 		)
 		(pad "2" smd rect
@@ -201133,7 +201133,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f0fd98f6-5efb-41dc-8257-572eaaf1627f")
 		)
 		(pad "2" smd rect
@@ -201357,7 +201357,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d19b5a35-c889-4746-a9b5-da294229155b")
 		)
 		(pad "2" smd rect
@@ -201581,7 +201581,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "75bbae00-411c-45c0-999b-9f13362da478")
 		)
 		(pad "2" smd rect
@@ -201805,7 +201805,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a70ad670-227a-411e-9cbc-398885021c68")
 		)
 		(pad "2" smd rect
@@ -202029,7 +202029,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "66eb4b31-f465-4b51-a8c6-dc72dc5b6801")
 		)
 		(pad "2" smd rect
@@ -202253,7 +202253,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "63333fea-17f3-470b-9bfd-2ef0fe7cd5b2")
 		)
 		(pad "2" smd rect
@@ -202477,7 +202477,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "663d3c34-5d67-4ee4-b65a-3597cdbe2df1")
 		)
 		(pad "2" smd rect
@@ -202701,7 +202701,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2f410d68-22b0-437c-8d7f-642ffcee7481")
 		)
 		(pad "2" smd rect
@@ -202925,7 +202925,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9764ee86-f69e-4111-ab36-ef76b2f1e4bd")
 		)
 		(pad "2" smd rect
@@ -203387,7 +203387,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "36b072f5-2b38-4736-90bc-392bbe9df4b5")
 		)
 		(pad "2" smd rect
@@ -203611,7 +203611,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f201d1a3-7ccd-4f51-a9f3-d5b63018ca5c")
 		)
 		(pad "2" smd rect
@@ -203835,7 +203835,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f3249365-f553-4c75-8f3c-76b9ffcb4cb7")
 		)
 		(pad "2" smd rect
@@ -204059,7 +204059,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4f44c19a-f666-4d9e-91c2-1bffeddc93f4")
 		)
 		(pad "2" smd rect
@@ -204283,7 +204283,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "eeb5bcd9-08d0-427b-854a-ea013653ab79")
 		)
 		(pad "2" smd rect
@@ -204507,7 +204507,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0d6ec543-7685-4ba9-955f-e2d777d52e94")
 		)
 		(pad "2" smd rect
@@ -204784,7 +204784,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "20c9791c-13c6-47a2-b92b-c3c58c2e1596")
 		)
 		(pad "2" smd rect
@@ -205008,7 +205008,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "18c62f86-2af8-41c4-9ae5-88b0fba2ac83")
 		)
 		(pad "2" smd rect
@@ -205232,7 +205232,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bdc70e69-f561-4446-91cc-68fca13dbe1f")
 		)
 		(pad "2" smd rect
@@ -205694,7 +205694,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "46d424e5-8c20-4d0e-ad6e-4559af894aa3")
 		)
 		(pad "2" smd rect
@@ -205918,7 +205918,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2db47698-c738-4df9-bd21-b8df5ebc21f2")
 		)
 		(pad "2" smd rect
@@ -206142,7 +206142,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "20923318-56b2-4ad1-9d69-c8c9be4e74ef")
 		)
 		(pad "2" smd rect
@@ -206366,7 +206366,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d2b5a94d-fe10-441f-8720-6d8c1ac7daf9")
 		)
 		(pad "2" smd rect
@@ -206590,7 +206590,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3b48a14f-1950-40f1-9833-7dc82490387f")
 		)
 		(pad "2" smd rect
@@ -206814,7 +206814,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c9ceb4ce-ce2b-4b27-a3ff-83d6cd27e3cd")
 		)
 		(pad "2" smd rect
@@ -207038,7 +207038,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3864b710-8c8f-4978-8867-2d1e0cb898a1")
 		)
 		(pad "2" smd rect
@@ -207262,7 +207262,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1840eb6b-9a79-4887-9698-e8064b4f3cb0")
 		)
 		(pad "2" smd rect
@@ -207486,7 +207486,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2bd7ae37-3aa1-49b7-b57a-22e95f1bddcf")
 		)
 		(pad "2" smd rect
@@ -207710,7 +207710,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9d47ca7b-de1f-4d7d-ba21-e53940a9564f")
 		)
 		(pad "2" smd rect
@@ -208463,7 +208463,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0838f164-2b81-4977-9a4a-92ebe160104a")
 		)
 		(pad "2" smd rect
@@ -208687,7 +208687,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a6d8cb78-b274-44e5-a07b-08ec6abfc050")
 		)
 		(pad "2" smd rect
@@ -208911,7 +208911,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4d61467b-a992-465e-881c-fda70ebe4ac1")
 		)
 		(pad "2" smd rect
@@ -209135,7 +209135,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5e864060-2742-4426-953e-de976be247bb")
 		)
 		(pad "2" smd rect
@@ -209359,7 +209359,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0ed3b1eb-d85b-4cdb-b2be-6a806c86aa8d")
 		)
 		(pad "2" smd rect
@@ -209583,7 +209583,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2c367642-eb19-484a-8997-4b3777617423")
 		)
 		(pad "2" smd rect
@@ -209807,7 +209807,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "072b9eb4-d76a-40f0-9f8c-9e594f6210d1")
 		)
 		(pad "2" smd rect
@@ -210031,7 +210031,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "af465c75-6378-4c3b-85c1-a155be490c7f")
 		)
 		(pad "2" smd rect
@@ -210255,7 +210255,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "670c8d71-67b3-46fa-b175-05b2db3b73ee")
 		)
 		(pad "2" smd rect
@@ -210479,7 +210479,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "790950a1-b018-4cb2-b39a-84e1a4094d12")
 		)
 		(pad "2" smd rect
@@ -210703,7 +210703,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "79ec3567-6ef9-4d9d-b795-1f95b69ccabb")
 		)
 		(pad "2" smd rect
@@ -210927,7 +210927,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2bc60e4d-369c-430f-9bbc-17d7450eae62")
 		)
 		(pad "2" smd rect
@@ -211151,7 +211151,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "05a4ffdb-e829-44ef-a4fc-692fe65992f7")
 		)
 		(pad "2" smd rect
@@ -211375,7 +211375,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bc91fff3-9a15-4059-982c-53be00e2080c")
 		)
 		(pad "2" smd rect
@@ -212005,7 +212005,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a7c2fca9-619d-4d9a-9852-db17bdce4221")
 		)
 		(pad "2" smd rect
@@ -212229,7 +212229,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5a1de143-f642-4037-ab39-517bafa8dba3")
 		)
 		(pad "2" smd rect
@@ -212453,7 +212453,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4aee316f-67d0-4ba1-9a25-9409ac046500")
 		)
 		(pad "2" smd rect
@@ -212677,7 +212677,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ff3aaf7f-97e5-44f7-af47-b52202c1cdc4")
 		)
 		(pad "2" smd rect
@@ -212901,7 +212901,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f7dcece8-3cf9-40e5-bb76-605b8f579f12")
 		)
 		(pad "2" smd rect
@@ -213125,7 +213125,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "31a30325-55ae-41b5-bc9e-ce97dc69a18e")
 		)
 		(pad "2" smd rect
@@ -213825,7 +213825,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7b46f6d4-e104-47f5-88de-ac6147990894")
 		)
 		(pad "2" smd rect
@@ -214049,7 +214049,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a454e6ff-54a9-4eb7-a59e-bead16a476db")
 		)
 		(pad "2" smd rect
@@ -214273,7 +214273,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8c275a57-5bd6-42bc-a8f3-c4b007816fd5")
 		)
 		(pad "2" smd rect
@@ -214801,7 +214801,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "11709ffd-9410-4eb5-ac2b-994707544b0d")
 		)
 		(pad "2" smd rect
@@ -215025,7 +215025,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "da123d21-b71c-4c37-adf8-889a711106aa")
 		)
 		(pad "2" smd rect
@@ -215249,7 +215249,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "57192670-185f-4a8f-9b99-be45e87fdcfd")
 		)
 		(pad "2" smd rect
@@ -215473,7 +215473,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c5a4e498-c7a1-4a11-836b-70078929cf20")
 		)
 		(pad "2" smd rect
@@ -215697,7 +215697,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4c043bac-6480-4555-8427-c2fe20bc1513")
 		)
 		(pad "2" smd rect
@@ -215921,7 +215921,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "18cf9344-9497-43b3-971b-be4523c4e9c4")
 		)
 		(pad "2" smd rect
@@ -216383,7 +216383,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d3c17a21-3829-438f-b22d-78c1fa20fc6c")
 		)
 		(pad "2" smd rect
@@ -216607,7 +216607,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "62a45795-0f8a-46b0-9be3-2f2432e9c537")
 		)
 		(pad "2" smd rect
@@ -216831,7 +216831,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1d912ac0-de11-4d7f-bb7b-9d5ee0c2a61f")
 		)
 		(pad "2" smd rect
@@ -217112,7 +217112,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5babfd7b-df43-4b56-814c-53006d1939a0")
 		)
 		(pad "2" smd rect
@@ -217336,7 +217336,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b7565c78-cc43-40e9-b60a-5fe5b1f35186")
 		)
 		(pad "2" smd rect
@@ -217666,7 +217666,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3c1d9194-7deb-417e-9a49-0366b04a7ce9")
 		)
 		(pad "2" smd rect
@@ -217890,7 +217890,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "77209261-7a92-4517-ad12-95ff4e663964")
 		)
 		(pad "2" smd rect
@@ -218114,7 +218114,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c0e984ef-ea4a-44bd-b794-826514a8196d")
 		)
 		(pad "2" smd rect
@@ -218345,7 +218345,7 @@
 			(roundrect_rratio 0.222222)
 			(net 592 "Net-(LED400-DO)")
 			(pinfunction "1")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "f9270c09-2de7-47f2-90f2-06c77f2b4385")
 		)
 		(pad "2" smd roundrect
@@ -218355,7 +218355,7 @@
 			(roundrect_rratio 0.222222)
 			(net 403 "ROW41")
 			(pinfunction "2")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "a7600638-ab8a-4999-a780-063b11286f5c")
 		)
 		(embedded_fonts no)
@@ -218552,7 +218552,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5a67cd80-8d00-4a98-a80d-f4031ec29b95")
 		)
 		(pad "2" smd rect
@@ -218776,7 +218776,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f6257a5a-c2fd-486a-9d00-b50e4fdbe3d2")
 		)
 		(pad "2" smd rect
@@ -219000,7 +219000,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b84de54e-2dda-4f8e-987c-8377daf9c435")
 		)
 		(pad "2" smd rect
@@ -219277,7 +219277,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3605483c-4ae4-4424-9dde-5759b2ee2713")
 		)
 		(pad "2" smd rect
@@ -219607,7 +219607,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a9c59eca-850f-4e82-915c-69acea480339")
 		)
 		(pad "2" smd rect
@@ -220069,7 +220069,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7c711a11-d733-4a9f-9ffa-d146edd525bf")
 		)
 		(pad "2" smd rect
@@ -220769,7 +220769,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e161cad9-3f6b-490b-a5e0-f908d0e87be5")
 		)
 		(pad "2" smd rect
@@ -220993,7 +220993,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "509f1494-ef48-4a4b-93dd-fe1490c881c8")
 		)
 		(pad "2" smd rect
@@ -221217,7 +221217,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8b03ef62-ef0e-4c65-a6b1-4c1b4e3306e9")
 		)
 		(pad "2" smd rect
@@ -221494,7 +221494,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "45ad0921-8fdb-4cac-813b-dab30fd00feb")
 		)
 		(pad "2" smd rect
@@ -221718,7 +221718,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c4781021-9d15-41f6-b204-38863b33b6af")
 		)
 		(pad "2" smd rect
@@ -221942,7 +221942,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7fcf92ef-665a-44c5-a2d4-64afa31308ae")
 		)
 		(pad "2" smd rect
@@ -222166,7 +222166,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "55faea8f-462b-4bc6-8cd3-46f1eb60b001")
 		)
 		(pad "2" smd rect
@@ -222390,7 +222390,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3d4647d4-bdba-4e67-8ee7-0611aa2b0a71")
 		)
 		(pad "2" smd rect
@@ -222614,7 +222614,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1497c258-902c-42e3-8916-c346da89e8d2")
 		)
 		(pad "2" smd rect
@@ -222838,7 +222838,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ad9fa6a2-ecf6-440e-83e9-02d92a54045b")
 		)
 		(pad "2" smd rect
@@ -223062,7 +223062,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6e847d42-9733-4f57-97e9-a7e155672e6b")
 		)
 		(pad "2" smd rect
@@ -223286,7 +223286,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "03da1d62-fee0-4e6f-bfe8-5eb443f73843")
 		)
 		(pad "2" smd rect
@@ -223510,7 +223510,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e9dfb822-03f1-497e-927a-1dbcc5570015")
 		)
 		(pad "2" smd rect
@@ -223734,7 +223734,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e929b495-0060-4289-80ff-d9dc656ebee7")
 		)
 		(pad "2" smd rect
@@ -223958,7 +223958,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8c402ebe-6bb1-4875-9adc-8a47a45bfbe4")
 		)
 		(pad "2" smd rect
@@ -224420,7 +224420,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6b154afc-5266-4f60-8790-3f12bc4f7b4c")
 		)
 		(pad "2" smd rect
@@ -224644,7 +224644,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fbe40939-ebf4-4b60-b172-ab4a728c146c")
 		)
 		(pad "2" smd rect
@@ -224868,7 +224868,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0b60570d-8796-4c21-8dc7-d5fe0a4aff54")
 		)
 		(pad "2" smd rect
@@ -225092,7 +225092,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "826837b3-d628-47e4-8295-9d9f1b5d76c4")
 		)
 		(pad "2" smd rect
@@ -225316,7 +225316,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "17c6c765-4f59-423d-95f6-e67124046418")
 		)
 		(pad "2" smd rect
@@ -225540,7 +225540,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5bb9d04c-094c-4a08-a125-999e3d99bd82")
 		)
 		(pad "2" smd rect
@@ -225764,7 +225764,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b042c13d-32fb-4cb4-ba8b-bda54ecf2c6a")
 		)
 		(pad "2" smd rect
@@ -226226,7 +226226,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4762a0f8-0bc2-4f4e-95d6-5a90e2eb31cc")
 		)
 		(pad "2" smd rect
@@ -226450,7 +226450,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7aac4fa7-fcc7-411c-b25e-19f9b68ad402")
 		)
 		(pad "2" smd rect
@@ -226674,7 +226674,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "508f2715-4ce6-43c5-9d9c-d4c4e0e42030")
 		)
 		(pad "2" smd rect
@@ -226898,7 +226898,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f6d82e17-08bf-4590-b567-ce172b7d5024")
 		)
 		(pad "2" smd rect
@@ -227175,7 +227175,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bd74ac34-15d7-41f2-820f-94f8029d306f")
 		)
 		(pad "2" smd rect
@@ -227399,7 +227399,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "48c24c6b-7375-4a8d-bd63-07e6d2e055f7")
 		)
 		(pad "2" smd rect
@@ -227676,7 +227676,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bcc40679-9024-47d3-99b7-b729492dbff4")
 		)
 		(pad "2" smd rect
@@ -227900,7 +227900,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b98486f7-7b30-44bd-923f-717fdeb8240b")
 		)
 		(pad "2" smd rect
@@ -228362,7 +228362,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5d8a9d12-82c5-4c75-86f0-bacadb81421f")
 		)
 		(pad "2" smd rect
@@ -228586,7 +228586,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9727d77e-370b-4d92-be36-ce7022d54356")
 		)
 		(pad "2" smd rect
@@ -228810,7 +228810,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e79c9601-c374-44b2-8e52-e24410917768")
 		)
 		(pad "2" smd rect
@@ -229034,7 +229034,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8d7a915c-3618-44b5-8a12-25f3c5f71ee8")
 		)
 		(pad "2" smd rect
@@ -229311,7 +229311,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "058f0ac1-52fe-411e-8d12-7f3c7e7b9884")
 		)
 		(pad "2" smd rect
@@ -229535,7 +229535,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bd2dd490-86fa-4d63-806f-3ac55adc716f")
 		)
 		(pad "2" smd rect
@@ -229759,7 +229759,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6cfa6cf3-92c5-4456-8df4-1496d030939c")
 		)
 		(pad "2" smd rect
@@ -229983,7 +229983,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0be10a4e-8ece-457c-bd2e-a25cd5d43833")
 		)
 		(pad "2" smd rect
@@ -230207,7 +230207,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b455fc09-997e-4c9a-b607-3151f718b484")
 		)
 		(pad "2" smd rect
@@ -230431,7 +230431,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2bd43328-9622-476b-8f27-604895795c4d")
 		)
 		(pad "2" smd rect
@@ -230655,7 +230655,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5d69709f-f81d-41e4-b4aa-a3e2b6768b7b")
 		)
 		(pad "2" smd rect
@@ -230879,7 +230879,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "5da646d9-a4b1-4aaf-8af8-efa7b73cfc20")
 		)
 		(pad "2" smd rect
@@ -231103,7 +231103,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "09473f58-58a0-4a53-8542-5fb28e17975e")
 		)
 		(pad "2" smd rect
@@ -231327,7 +231327,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2ed8abfe-7324-426e-b33e-1d30c725d297")
 		)
 		(pad "2" smd rect
@@ -231551,7 +231551,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cf1b2671-7409-43f2-87dc-fc31485529bf")
 		)
 		(pad "2" smd rect
@@ -231775,7 +231775,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2e86aa7f-5e01-4d3a-9706-d8ca0cde4eaa")
 		)
 		(pad "2" smd rect
@@ -231999,7 +231999,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bdb5d1d4-d742-4c17-b344-a25694b15615")
 		)
 		(pad "2" smd rect
@@ -232223,7 +232223,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d41140b3-c78a-44fe-9979-41daa8316a20")
 		)
 		(pad "2" smd rect
@@ -232447,7 +232447,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "84fb7c00-2935-4357-8141-592bba32b059")
 		)
 		(pad "2" smd rect
@@ -232724,7 +232724,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a648d3a4-56ef-478c-aae3-d7bd7b1e7b67")
 		)
 		(pad "2" smd rect
@@ -232948,7 +232948,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d91cf62e-dc0f-46c3-b7b6-ade8229b985e")
 		)
 		(pad "2" smd rect
@@ -233410,7 +233410,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "85c43922-65b5-4f7c-a2dd-0e7f126c7421")
 		)
 		(pad "2" smd rect
@@ -233634,7 +233634,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d0ee0904-d388-4e88-a79b-77dc82caa754")
 		)
 		(pad "2" smd rect
@@ -233858,7 +233858,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cda2fa0e-ac8b-4b0d-8646-cebf379d159d")
 		)
 		(pad "2" smd rect
@@ -234082,7 +234082,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7ee742f3-a7be-422c-a3fc-4ea0fb3f141f")
 		)
 		(pad "2" smd rect
@@ -234306,7 +234306,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b8516bb2-1e34-48d9-bbe8-c9f6edd5b99a")
 		)
 		(pad "2" smd rect
@@ -234530,7 +234530,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "dbb06ff5-661d-47a5-be46-78df0a215f08")
 		)
 		(pad "2" smd rect
@@ -234754,7 +234754,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9c31571d-304d-4ab8-b995-756adf032776")
 		)
 		(pad "2" smd rect
@@ -234978,7 +234978,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "09ac5ad4-2b2d-476c-bd41-de35455fb9be")
 		)
 		(pad "2" smd rect
@@ -235202,7 +235202,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a01deb9f-2797-4949-af01-1b3334d00db4")
 		)
 		(pad "2" smd rect
@@ -235426,7 +235426,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2826b5f9-7033-4c18-8060-eea8513e44df")
 		)
 		(pad "2" smd rect
@@ -235650,7 +235650,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "95172c2b-7ea8-40d2-bef3-2a720f8ae699")
 		)
 		(pad "2" smd rect
@@ -235927,7 +235927,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e0ebe9ae-af36-4e03-bca8-dc6cf62887a1")
 		)
 		(pad "2" smd rect
@@ -236151,7 +236151,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b4ce72ad-0a4e-4941-bc12-c2ba1b1946bb")
 		)
 		(pad "2" smd rect
@@ -236375,7 +236375,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1aed451d-43ee-4140-8bc9-79fbbdc4f78c")
 		)
 		(pad "2" smd rect
@@ -236599,7 +236599,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cc9ec2f0-3157-4757-9d7f-afacd43d6603")
 		)
 		(pad "2" smd rect
@@ -236823,7 +236823,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fdbd4d7e-6f62-418d-83cc-75e7fbcb21fb")
 		)
 		(pad "2" smd rect
@@ -237047,7 +237047,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1b81c5d4-22ea-4640-977e-70b58afcc5e8")
 		)
 		(pad "2" smd rect
@@ -237271,7 +237271,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8fb58f7a-cdc4-454a-a0a9-62d55a18c57e")
 		)
 		(pad "2" smd rect
@@ -237495,7 +237495,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ab454649-e7ad-41ad-a23d-956efaf8f3cd")
 		)
 		(pad "2" smd rect
@@ -237719,7 +237719,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "57dd5a71-f086-444e-a7b6-824c05296d96")
 		)
 		(pad "2" smd rect
@@ -237943,7 +237943,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8cde4602-afb7-4c16-a6d8-983af362c7e7")
 		)
 		(pad "2" smd rect
@@ -238167,7 +238167,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e5c21cad-0963-49c0-94f0-51fb98b59307")
 		)
 		(pad "2" smd rect
@@ -238391,7 +238391,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f8e69916-82f5-443f-b769-b5047ae1fea2")
 		)
 		(pad "2" smd rect
@@ -238906,7 +238906,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cd2b5b7e-6ac2-437e-8b85-1ec982b2c648")
 		)
 		(pad "2" smd rect
@@ -239130,7 +239130,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3f44bcb6-7e87-4d87-a175-6bf2e05dd3a9")
 		)
 		(pad "2" smd rect
@@ -239354,7 +239354,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c8ee7f1a-4a80-4fdc-a02a-e833e8053d88")
 		)
 		(pad "2" smd rect
@@ -239631,7 +239631,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bd739edc-4e93-4f34-91ef-e675361ab101")
 		)
 		(pad "2" smd rect
@@ -239855,7 +239855,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4c9482b1-b61c-4f9e-8772-f11f7647119f")
 		)
 		(pad "2" smd rect
@@ -240079,7 +240079,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "91e6e901-7c32-4de5-b15e-c3b182fc84d7")
 		)
 		(pad "2" smd rect
@@ -240303,7 +240303,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8081face-4aa0-4ac2-97ae-63ecc833dbca")
 		)
 		(pad "2" smd rect
@@ -240527,7 +240527,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "33bf9572-3218-4ceb-91d2-9b2addd65c82")
 		)
 		(pad "2" smd rect
@@ -240751,7 +240751,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "81da503a-bb81-4892-a49a-a224d91bf4b1")
 		)
 		(pad "2" smd rect
@@ -240975,7 +240975,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b3cc000d-fa6d-4eb9-b12e-11339717b31e")
 		)
 		(pad "2" smd rect
@@ -241199,7 +241199,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "94987626-e754-459d-9099-6841487a16ea")
 		)
 		(pad "2" smd rect
@@ -241423,7 +241423,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b7e0ad00-0d64-4b93-9378-a850b6eee3e1")
 		)
 		(pad "2" smd rect
@@ -241647,7 +241647,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "72b6ed4b-2455-4774-a774-520caed6f049")
 		)
 		(pad "2" smd rect
@@ -242109,7 +242109,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9aefa7e9-f31a-4df0-9b97-d6bd9f525767")
 		)
 		(pad "2" smd rect
@@ -242333,7 +242333,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b4213915-e648-4f37-b73c-43ef533ae6ed")
 		)
 		(pad "2" smd rect
@@ -242557,7 +242557,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c8c7fc37-8506-45ad-a649-4b5f5e6eeef4")
 		)
 		(pad "2" smd rect
@@ -242834,7 +242834,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f207de07-ac30-4974-9621-62a032b96684")
 		)
 		(pad "2" smd rect
@@ -243058,7 +243058,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e470b06e-5f4c-4699-83f1-31fb44f6268b")
 		)
 		(pad "2" smd rect
@@ -243282,7 +243282,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cf201bdf-95ca-4d81-afda-a5fdde1eec4f")
 		)
 		(pad "2" smd rect
@@ -243506,7 +243506,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "aadd1649-b354-40a8-9f2e-895ab708283d")
 		)
 		(pad "2" smd rect
@@ -243730,7 +243730,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3587514c-7134-4df7-9e92-bae8e645f8ea")
 		)
 		(pad "2" smd rect
@@ -243954,7 +243954,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1afeb49b-048c-401a-9081-529c790015cf")
 		)
 		(pad "2" smd rect
@@ -244178,7 +244178,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8b824054-5091-4198-b5f5-927b84cfcecf")
 		)
 		(pad "2" smd rect
@@ -244402,7 +244402,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fdb958c2-8de9-4650-bd45-a37015b69a05")
 		)
 		(pad "2" smd rect
@@ -244626,7 +244626,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9dfd452f-d61d-4311-bafe-9f8c1d31c200")
 		)
 		(pad "2" smd rect
@@ -245088,7 +245088,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a0feb338-0667-4578-8e92-c0447d4e4fc4")
 		)
 		(pad "2" smd rect
@@ -245312,7 +245312,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "da4b0e27-b1e5-43a2-8e77-c6a49333f9b0")
 		)
 		(pad "2" smd rect
@@ -245536,7 +245536,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e3a3e1b3-ed74-4008-a407-35852572f111")
 		)
 		(pad "2" smd rect
@@ -245760,7 +245760,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1aadb1b2-6b95-4fa4-a944-e1049d8f96c1")
 		)
 		(pad "2" smd rect
@@ -245984,7 +245984,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a273171c-cc0e-480e-86a4-5505e6654c95")
 		)
 		(pad "2" smd rect
@@ -246208,7 +246208,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8c3dc306-48f8-4133-a00d-ab91c45697ac")
 		)
 		(pad "2" smd rect
@@ -246432,7 +246432,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4aac1db9-69a5-4d33-acd0-c723c4f53002")
 		)
 		(pad "2" smd rect
@@ -246656,7 +246656,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4a8ecd0e-5f1a-4e5e-9482-2640ee9c1926")
 		)
 		(pad "2" smd rect
@@ -246933,7 +246933,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9c8c5889-0dbc-4e52-89dd-8e4b8686fc47")
 		)
 		(pad "2" smd rect
@@ -247157,7 +247157,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "3ab2a67a-9464-4257-8a41-3d6781698a2e")
 		)
 		(pad "2" smd rect
@@ -247381,7 +247381,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7f9525da-3463-447d-a00c-e1e568968831")
 		)
 		(pad "2" smd rect
@@ -248081,7 +248081,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "b6a21d9c-48e8-40b9-99f6-ddc870f42a77")
 		)
 		(pad "2" smd rect
@@ -248305,7 +248305,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fed0472d-8f18-40fb-b9ba-2aab31a01f25")
 		)
 		(pad "2" smd rect
@@ -248529,7 +248529,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "98f91046-61da-4f14-b0cd-efe30bec603c")
 		)
 		(pad "2" smd rect
@@ -248753,7 +248753,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "df7a6737-c6ac-4149-a53e-57cab12c78da")
 		)
 		(pad "2" smd rect
@@ -249215,7 +249215,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "8b120643-4ccb-4075-b2e9-7742b74385b2")
 		)
 		(pad "2" smd rect
@@ -249915,7 +249915,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7ddb9fa9-8e7a-4187-b5ef-0e8e9a6a9b2e")
 		)
 		(pad "2" smd rect
@@ -250139,7 +250139,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "db66982e-edfc-420f-b11d-a6c23a398dc0")
 		)
 		(pad "2" smd rect
@@ -250363,7 +250363,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fcbd7d0b-d208-468f-8f0d-2b54f556fb83")
 		)
 		(pad "2" smd rect
@@ -250587,7 +250587,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "461e7ce6-ee7a-43c7-84b8-a8ddf86eba69")
 		)
 		(pad "2" smd rect
@@ -250811,7 +250811,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "810d2789-cec8-4ed3-bba8-4d6ee3e3e7e4")
 		)
 		(pad "2" smd rect
@@ -251035,7 +251035,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "126e8fc2-1640-485f-b3b4-17310649a081")
 		)
 		(pad "2" smd rect
@@ -251266,7 +251266,7 @@
 			(roundrect_rratio 0.222222)
 			(net 588 "Net-(LED100-DO)")
 			(pinfunction "1")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "f12af00e-ffe6-46ff-922f-146cce7ac844")
 		)
 		(pad "2" smd roundrect
@@ -251276,7 +251276,7 @@
 			(roundrect_rratio 0.222222)
 			(net 103 "ROW11")
 			(pinfunction "2")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "00e19dec-61df-4fdb-8eaf-afa80e36f4b8")
 		)
 		(embedded_fonts no)
@@ -251530,7 +251530,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0798237e-728e-4cfb-8d48-35a5501911eb")
 		)
 		(pad "2" smd rect
@@ -251807,7 +251807,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "237d91ee-1342-41d1-bfde-c115b4526a72")
 		)
 		(pad "2" smd rect
@@ -252269,7 +252269,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "4345d2c3-d28e-4b49-b63f-6539834105ca")
 		)
 		(pad "2" smd rect
@@ -252493,7 +252493,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "21071244-3f19-4188-9e61-d690f00ac156")
 		)
 		(pad "2" smd rect
@@ -252717,7 +252717,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "582eacbb-3b7c-420c-af42-75f3e5224cf8")
 		)
 		(pad "2" smd rect
@@ -252941,7 +252941,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9b4a31c9-fb13-4247-8aba-1984ee5b06f6")
 		)
 		(pad "2" smd rect
@@ -253165,7 +253165,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "470dc9b0-7ee2-43e0-9444-1bcbbfce9425")
 		)
 		(pad "2" smd rect
@@ -253389,7 +253389,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "bc816386-9f47-436b-baff-4f2c34e62731")
 		)
 		(pad "2" smd rect
@@ -253613,7 +253613,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "7c531e82-afbb-4939-834a-072c0f447007")
 		)
 		(pad "2" smd rect
@@ -253837,7 +253837,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9d5190fc-67c3-4345-8525-292d7c364fa6")
 		)
 		(pad "2" smd rect
@@ -254061,7 +254061,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "82739edd-ea28-4d2e-a56d-12527abeabee")
 		)
 		(pad "2" smd rect
@@ -254285,7 +254285,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "a2debcf1-4aa1-41c0-9afa-fd584482cd4a")
 		)
 		(pad "2" smd rect
@@ -254509,7 +254509,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "d8f694b2-dce9-4c30-b974-d5347b830f2e")
 		)
 		(pad "2" smd rect
@@ -254733,7 +254733,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "08342b58-cdc9-462d-a422-2eb9f2c1764d")
 		)
 		(pad "2" smd rect
@@ -255010,7 +255010,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "02725d04-b88a-499c-b5c6-579fab5e45a8")
 		)
 		(pad "2" smd rect
@@ -255234,7 +255234,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "94b77c30-dbd1-4066-81e1-da6a80d423fc")
 		)
 		(pad "2" smd rect
@@ -255458,7 +255458,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "19b04326-724b-44fa-a1d9-4fe0ef67e107")
 		)
 		(pad "2" smd rect
@@ -255735,7 +255735,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6fdc7844-0520-402b-ac00-34b8b6131cbf")
 		)
 		(pad "2" smd rect
@@ -255959,7 +255959,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "19f0c126-27e1-4838-bf89-838463a03ea0")
 		)
 		(pad "2" smd rect
@@ -256183,7 +256183,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "edb7649b-4f31-4d25-aea8-f6165faed166")
 		)
 		(pad "2" smd rect
@@ -256645,7 +256645,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "da0842d5-ff2f-4ea1-92b1-dbf916ef519e")
 		)
 		(pad "2" smd rect
@@ -256869,7 +256869,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "ec169842-b6e7-4aad-8d39-1e29256ba9fb")
 		)
 		(pad "2" smd rect
@@ -257093,7 +257093,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "536a32a3-4e6e-4fa4-9c23-15701115f5b2")
 		)
 		(pad "2" smd rect
@@ -257317,7 +257317,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "09adffc0-6e3d-4475-ad77-a618495f02ee")
 		)
 		(pad "2" smd rect
@@ -257541,7 +257541,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9259150c-b6e2-475a-b54f-67fd6072b752")
 		)
 		(pad "2" smd rect
@@ -257765,7 +257765,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "db1327bc-316e-455f-8b88-ead9360ed51d")
 		)
 		(pad "2" smd rect
@@ -257989,7 +257989,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "06dc1845-415e-48f5-8c48-8f584a720555")
 		)
 		(pad "2" smd rect
@@ -258213,7 +258213,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cf4a01d6-3a97-4d75-901b-f36f1ea32c74")
 		)
 		(pad "2" smd rect
@@ -258437,7 +258437,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "c04eedac-7b36-42eb-aaab-f8c18c2789d7")
 		)
 		(pad "2" smd rect
@@ -258661,7 +258661,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "1eceeb39-c731-4645-836a-288e454a02f7")
 		)
 		(pad "2" smd rect
@@ -258885,7 +258885,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f6b5f0c8-a9af-46fa-b679-b689af84b8bd")
 		)
 		(pad "2" smd rect
@@ -259109,7 +259109,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "f450b611-28ac-4901-8760-c98c647a015f")
 		)
 		(pad "2" smd rect
@@ -259333,7 +259333,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "097ed40c-1558-4f29-a7b9-297abd2ce7cb")
 		)
 		(pad "2" smd rect
@@ -259557,7 +259557,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "225c5cd8-f8d0-403f-a10d-bdecb65935f9")
 		)
 		(pad "2" smd rect
@@ -259781,7 +259781,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0dbfff6c-c70b-4e4d-a217-cc89ec0ee3b0")
 		)
 		(pad "2" smd rect
@@ -260005,7 +260005,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "fee736ea-0cb8-49f0-ad31-3f98289c17b7")
 		)
 		(pad "2" smd rect
@@ -260229,7 +260229,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "181f1180-a51a-4166-a32e-7b06836dce8d")
 		)
 		(pad "2" smd rect
@@ -260453,7 +260453,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "26ec5e1a-25af-4aba-a33e-465dec14e81e")
 		)
 		(pad "2" smd rect
@@ -260677,7 +260677,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "2696ea86-04e5-4901-8ef1-ba4b06852563")
 		)
 		(pad "2" smd rect
@@ -260901,7 +260901,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "cf59c8c5-3e86-40b8-8bb0-d2ce85e51212")
 		)
 		(pad "2" smd rect
@@ -261125,7 +261125,7 @@
 			(roundrect_rratio 0.1538461538)
 			(net 3 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0fe98792-ce89-4f95-bdbb-99612c057380")
 		)
 		(pad "2" smd rect
@@ -264518,7 +264518,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "LED_IN")
 			(pinfunction "GPIO1/RX")
-			(pintype "passive")
+			(pintype "output")
 			(solder_mask_margin 0.0508)
 			(thermal_bridge_angle 45)
 			(uuid "7ddf2c66-2f69-4425-91ff-347bbd84f535")
