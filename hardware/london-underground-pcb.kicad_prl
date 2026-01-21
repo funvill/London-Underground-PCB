@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "Front Layers",
+    "active_layer": 35,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -18,7 +18,7 @@
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
-      "graphics": false,
+      "graphics": true,
       "keepouts": true,
       "lockedItems": false,
       "otherItems": true,
@@ -42,7 +42,7 @@
       "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000008_82002223",
+    "visible_layers": "00000000_00000000_00000008_00000022",
     "zone_display_mode": 0
   },
   "git": {
@@ -81,16 +81,16 @@
       9
     ],
     "col_widths": [
-      258,
-      243,
-      150,
-      106,
-      150,
-      150,
-      150,
-      112,
-      150,
-      150
+      147,
+      139,
+      86,
+      61,
+      86,
+      86,
+      86,
+      64,
+      86,
+      86
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

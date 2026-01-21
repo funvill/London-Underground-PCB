@@ -1,0 +1,40 @@
+# Issues with version 2025-Nov-30
+
+- Add more GND pads to the back of the board 
+- Add seeed_xiao board pin numbers. D7
+- Is not in the list of Stations C:\Users\funvill\Documents\git\London-Underground-PCB\station-names-to-led.csv
+  - Iver (LED24)
+  - Taplow (LED28)
+  - Maidenhead (LED29)
+  - Hillingdon (LED33)
+  - Herne Hill (LED197)
+  - Towards Luton Airport Parkway (LED264)
+  - West Croydon (LED302)
+  - Towards Gatwick Airport (LED308)
+  - Towards Sevenoaks (LED459)
+
+- There are two LEDs with the same name "Action Town" LED65, LED14
+- "Edgware Road" has two different locations. 134, 94
+- LED 101-104 where are these?
+- South Kenton lable is misleading, it looks like it is apart of different led.
+- "Edgware Road" mulitple locations
+- "Colliers Wood" should be "Wood Colliers" label is backwards, LED181
+- The "Oxford Circus" lable is offset
+- "Tower Hill" lable is miss labled
+- near LED471, there is a lable that should be there "Greenwich"
+- LED480 shouldn't be here, its a arrow.
+- LED482 "Gallions" should be "Gallions Reach", and "Cyprus Reach" should be "Cyprus"
+- LED552 Should be "Wanstead" instead of "Grants Hill". these labels are reversed.
+- LED470 "IFS Cloud Greenwich Peninsula" label is bad. 
+- LED469 "North greenwich" label is in the wrong spot
+
+- "Hounslow East" station is missing an LED
+- "Bow Road" station is missing an LED
+- "Monument" (D6) station is missing an LED
+- "Barbican" (C5) station is missing an LED
+- "Bow Road" (C7) station is missing an LED
+- "Cannon Street" (D5) station is missing an LED
+- "Eastcote" (B2) station is missing an LED
+- "Euston Square" (B5) station is missing an LED
+- "High Street Kensington" (D3) station is missing an LED
+- "South Hampstead" (C3) station is missing an LED

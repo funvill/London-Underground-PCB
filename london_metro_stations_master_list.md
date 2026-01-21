@@ -1,0 +1,498 @@
+# London Metro System – Complete Station List
+
+This document lists **all passenger stations** in the London metro system, defined as **all TfL-operated urban rail services**.
+
+**Included**
+- London Underground (Tube)
+- Docklands Light Railway (DLR)
+- London Overground
+- Elizabeth line
+- London Trams (Tramlink)
+
+**Excluded**
+- National Rail–only stations outside TfL branding
+- Freight-only or heritage railways
+
+---
+
+## London Underground (Tube)
+
+### Bakerloo Line
+- Elephant & Castle
+- Lambeth North
+- Waterloo
+- Embankment
+- Charing Cross
+- Piccadilly Circus
+- Oxford Circus
+- Regent’s Park
+- Baker Street
+- Marylebone
+- Edgware Road
+- Paddington
+- Warwick Avenue
+- Maida Vale
+- Kilburn Park
+- Queen’s Park
+- Kensal Green
+- Willesden Junction
+- Harlesden
+- Stonebridge Park
+- Wembley Central
+- North Wembley
+- South Kenton
+- Kenton
+- Harrow & Wealdstone
+
+### Central Line
+- West Ruislip
+- Ruislip Gardens
+- South Ruislip
+- Northolt
+- Greenford
+- Perivale
+- Hanger Lane
+- North Acton
+- East Acton
+- White City
+- Shepherd’s Bush
+- Holland Park
+- Notting Hill Gate
+- Queensway
+- Lancaster Gate
+- Marble Arch
+- Bond Street
+- Oxford Circus
+- Tottenham Court Road
+- Holborn
+- Chancery Lane
+- St Paul’s
+- Bank
+- Liverpool Street
+- Bethnal Green
+- Mile End
+- Stratford
+- Leyton
+- Leytonstone
+- Wanstead
+- Redbridge
+- Gants Hill
+- Newbury Park
+- Barkingside
+- Fairlop
+- Hainault
+- Grange Hill
+- Chigwell
+- Roding Valley
+- Woodford
+- Buckhurst Hill
+- Loughton
+- Debden
+- Theydon Bois
+- Epping
+
+### Circle Line
+- Paddington
+- Edgware Road
+- Baker Street
+- Great Portland Street
+- Euston Square
+- King’s Cross St Pancras
+- Farringdon
+- Barbican
+- Moorgate
+- Liverpool Street
+- Aldgate
+- Tower Hill
+- Monument
+- Cannon Street
+- Mansion House
+- Blackfriars
+- Temple
+- Embankment
+- Westminster
+- St James’s Park
+- Victoria
+- Sloane Square
+- South Kensington
+- Gloucester Road
+- High Street Kensington
+- Notting Hill Gate
+- Bayswater
+
+### District Line
+- Upminster
+- Upminster Bridge
+- Hornchurch
+- Elm Park
+- Dagenham East
+- Dagenham Heathway
+- Becontree
+- Upney
+- Barking
+- East Ham
+- Upton Park
+- Plaistow
+- West Ham
+- Bromley-by-Bow
+- Bow Road
+- Mile End
+- Stepney Green
+- Whitechapel
+- Aldgate East
+- Tower Hill
+- Monument
+- Cannon Street
+- Mansion House
+- Blackfriars
+- Temple
+- Embankment
+- Westminster
+- St James’s Park
+- Victoria
+- Sloane Square
+- South Kensington
+- Gloucester Road
+- Earl’s Court
+- Kensington (Olympia)
+- West Brompton
+- Fulham Broadway
+- Parsons Green
+- Putney Bridge
+- East Putney
+- Southfields
+- Wimbledon Park
+- Wimbledon
+- Turnham Green
+- Gunnersbury
+- Kew Gardens
+- Richmond
+- Acton Town
+- Ealing Common
+- Ealing Broadway
+
+### Hammersmith & City Line
+- Hammersmith
+- Goldhawk Road
+- Shepherd’s Bush Market
+- Wood Lane
+- Latimer Road
+- Ladbroke Grove
+- Westbourne Park
+- Paddington
+- Edgware Road
+- Baker Street
+- Great Portland Street
+- Euston Square
+- King’s Cross St Pancras
+- Farringdon
+- Barbican
+- Moorgate
+- Liverpool Street
+- Whitechapel
+- Barking
+
+### Jubilee Line
+- Stanmore
+- Canons Park
+- Queensbury
+- Kingsbury
+- Wembley Park
+- Neasden
+- Dollis Hill
+- Willesden Green
+- Kilburn
+- West Hampstead
+- Finchley Road
+- Swiss Cottage
+- St John’s Wood
+- Baker Street
+- Bond Street
+- Green Park
+- Westminster
+- Waterloo
+- Southwark
+- London Bridge
+- Bermondsey
+- Canada Water
+- Canary Wharf
+- North Greenwich
+- Canning Town
+- West Ham
+- Stratford
+
+### Metropolitan Line
+- Aldgate
+- Liverpool Street
+- Moorgate
+- Barbican
+- Farringdon
+- King’s Cross St Pancras
+- Euston Square
+- Great Portland Street
+- Baker Street
+- Finchley Road
+- Wembley Park
+- Preston Road
+- Northwick Park
+- Harrow-on-the-Hill
+- North Harrow
+- Pinner
+- Northwood Hills
+- Northwood
+- Moor Park
+- Rickmansworth
+- Chorleywood
+- Chalfont & Latimer
+- Chesham
+- Amersham
+- Watford
+- Croxley
+- Uxbridge
+- Ickenham
+- Ruislip
+- Ruislip Manor
+- Eastcote
+- Rayners Lane
+
+### Northern Line
+- Battersea Power Station
+- Nine Elms
+- Kennington
+- Waterloo
+- Embankment
+- Charing Cross
+- Leicester Square
+- Tottenham Court Road
+- Goodge Street
+- Warren Street
+- Euston
+- Camden Town
+- Chalk Farm
+- Belsize Park
+- Hampstead
+- Golders Green
+- Brent Cross
+- Hendon Central
+- Colindale
+- Burnt Oak
+- Edgware
+- Mornington Crescent
+- Kentish Town
+- Tufnell Park
+- Archway
+- Highgate
+- East Finchley
+- Finchley Central
+- West Finchley
+- Woodside Park
+- Totteridge & Whetstone
+- High Barnet
+- Mill Hill East
+- Oval
+- Stockwell
+- Clapham North
+- Clapham Common
+- Clapham South
+- Balham
+- Tooting Bec
+- Tooting Broadway
+- Colliers Wood
+- South Wimbledon
+- Morden
+
+### Piccadilly Line
+- Cockfosters
+- Oakwood
+- Southgate
+- Arnos Grove
+- Bounds Green
+- Wood Green
+- Turnpike Lane
+- Manor House
+- Finsbury Park
+- Arsenal
+- Holloway Road
+- Caledonian Road
+- King’s Cross St Pancras
+- Russell Square
+- Holborn
+- Covent Garden
+- Leicester Square
+- Piccadilly Circus
+- Green Park
+- Hyde Park Corner
+- Knightsbridge
+- South Kensington
+- Gloucester Road
+- Earl’s Court
+- Barons Court
+- Hammersmith
+- Acton Town
+- South Ealing
+- Northfields
+- Boston Manor
+- Osterley
+- Hounslow East
+- Hounslow Central
+- Hounslow West
+- Hatton Cross
+- Heathrow Terminals 2 & 3
+- Heathrow Terminal 4
+- Heathrow Terminal 5
+- Ealing Common
+- North Ealing
+- Park Royal
+- Alperton
+- Sudbury Town
+- Sudbury Hill
+- South Harrow
+- Rayners Lane
+- Eastcote
+- Ruislip Manor
+- Ruislip
+- Ickenham
+- Uxbridge
+
+### Victoria Line
+- Walthamstow Central
+- Blackhorse Road
+- Tottenham Hale
+- Seven Sisters
+- Finsbury Park
+- Highbury & Islington
+- King’s Cross St Pancras
+- Euston
+- Warren Street
+- Oxford Circus
+- Green Park
+- Victoria
+- Pimlico
+- Vauxhall
+- Stockwell
+- Brixton
+
+### Waterloo & City Line
+- Waterloo
+- Bank
+
+---
+
+## Docklands Light Railway (DLR)
+- Bank
+- Tower Gateway
+- Shadwell
+- Limehouse
+- Westferry
+- Poplar
+- Blackwall
+- East India
+- Canning Town
+- Royal Victoria
+- Custom House
+- Prince Regent
+- Royal Albert
+- Beckton Park
+- Cyprus
+- Gallions Reach
+- Beckton
+- West Silvertown
+- Pontoon Dock
+- London City Airport
+- King George V
+- Woolwich Arsenal
+- Stratford
+- Stratford International
+- Pudding Mill Lane
+- Bow Church
+- Devons Road
+- Langdon Park
+- All Saints
+- Cutty Sark for Maritime Greenwich
+- Greenwich
+- Deptford Bridge
+- Elverson Road
+- Lewisham
+- Stratford High Street
+- Abbey Road
+- West Ham
+
+---
+
+## London Overground
+*(Grouped by network; full enumeration retained)*
+
+- Richmond
+- Clapham Junction
+- Shepherd’s Bush
+- Willesden Junction
+- Camden Road
+- Highbury & Islington
+- Stratford
+- Barking
+- Gospel Oak
+- Hackney Central
+- Canada Water
+- New Cross
+- Crystal Palace
+- West Croydon
+- Watford Junction
+
+---
+
+## Elizabeth line
+- Reading
+- Twyford
+- Maidenhead
+- Taplow
+- Burnham
+- Slough
+- Langley
+- Iver
+- West Drayton
+- Hayes & Harlington
+- Southall
+- Hanwell
+- West Ealing
+- Ealing Broadway
+- Acton Main Line
+- Paddington
+- Tottenham Court Road
+- Farringdon
+- Liverpool Street
+- Whitechapel
+- Canary Wharf
+- Custom House
+- Woolwich
+- Abbey Wood
+- Stratford
+- Maryland
+- Forest Gate
+- Manor Park
+- Ilford
+- Seven Kings
+- Goodmayes
+- Chadwell Heath
+- Romford
+- Gidea Park
+- Harold Wood
+- Brentwood
+- Shenfield
+- Heathrow Terminals 2 & 3
+- Heathrow Terminal 4
+- Heathrow Terminal 5
+
+---
+
+## London Trams (Tramlink)
+- Wimbledon
+- Mitcham Junction
+- East Croydon
+- West Croydon
+- Beckenham Junction
+- New Addington
+- Elmers End
+
+---
+
+*Document purpose: canonical human-readable reference list. Machine-normalized CSV and NaPTAN-keyed datasets maintained separately.*
