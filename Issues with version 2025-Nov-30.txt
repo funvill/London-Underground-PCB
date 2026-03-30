@@ -1,5 +1,8 @@
 # Issues with version 2025-Nov-30
 
+- ESP32 and the USB cable to too close to the edge of the board, The cable sticks out the bottom and makes it hard to mount
+- The pads on the ESP32 are too small for easy soldering, extend them out at lest 2 more mm 
+
 - Add more GND pads to the back of the board 
 - Add seeed_xiao board pin numbers. D7
 - Is not in the list of Stations C:\Users\funvill\Documents\git\London-Underground-PCB\station-names-to-led.csv

@@ -20,7 +20,7 @@ constexpr uint16_t NUM_LEDS = 600;
 // Demo behavior.
 constexpr uint8_t TRAIN_COUNT = 2;
 constexpr uint32_t SERIAL_BAUD = 115200;
-constexpr uint8_t BRIGHTNESS = 33;
+constexpr uint8_t BRIGHTNESS = 33; // 32 = 7% 
 constexpr uint16_t FADE_INTERVAL_MS = 20;
 constexpr uint8_t FADE_AMOUNT = 20;
 
